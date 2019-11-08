@@ -1,0 +1,117 @@
+div {
+  display: flex;
+  flex-direction: column;
+}
+div.view-container {
+  mat-tab-group {
+    /deep/ {
+      div.mat-tab-label {
+        height: unset;
+        min-height: 3rem;
+        padding: 1rem;
+      }
+
+      div.mat-tab-label-active {
+        opacity: 1;
+      }
+    }
+
+    div.mat-tab-label-holder {
+      display: flex;
+      flex-direction: column;
+
+      div.day-index {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem 0rem;
+        font-size: 1.3rem;
+
+        span {
+          text-align: left;
+        }
+      }
+
+      div.day-date,
+      div.day-place-holder {
+        flex-direction: row;
+        align-items: center;
+      }
+    }
+
+    div.tab-content {
+      padding: 0.5rem;
+
+      div.trip-entity-card-holder {
+        flex-flow: row wrap;
+        justify-content: space-around;
+      }
+
+      mat-card.trip-entity-card {
+        width: 25rem;
+        margin: 0.5rem;
+        display: flex;
+        flex-direction: column;
+
+        /deep/ {
+          div.mat-card-header-text {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+          }
+        }
+
+        mat-card-content {
+          div.table-holder {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+      }
+    }
+
+    div.trip-entity-name-holder,
+    div.trip-entity-address-holder,
+    div.trip-entity-contact-holder,
+    div.trip-entity-missing-information-holder {
+      cursor: default;
+      margin: 0.5rem 0rem;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    div.trip-entity-address-holder,
+    div.trip-entity-contact-holder {
+      cursor: pointer;
+      font-style: italic;
+      color: rgba(127, 127, 127, 1);
+    }
+
+    div.trip-entity-description {
+      white-space: pre-wrap;
+      margin-top: 0.5rem;
+    }
+
+    div.trip-entity-icon-holder {
+      margin-right: 0.5rem;
+    }
+
+    div.no-trip-entity-message {
+      cursor: default !important;
+      margin: 0.5rem 0rem;
+      font-style: italic;
+      color: rgba(196, 196, 196, 1);
+    }
+  }
+}
+
+div.button-holder {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 1;
+
+  div.button {
+    margin: 0.5rem;
+  }
+}

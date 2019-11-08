@@ -1,0 +1,2217 @@
+{
+  "tripStart": {
+    "sourceCity": "Mumbai",
+    "startDate": "2019-12-20T18:30:00.000Z"
+  },
+  "days": [{
+      "places": [{
+          "name": "Guwahati",
+          "attractions": [{
+            "name": "Leave for Bomdila",
+            "location": "Guwahati to Bomdila",
+            "description": "Approximately 9h required to travel about 300km"
+          }],
+          "stays": []
+        },
+        {
+          "name": "Bomdila",
+          "attractions": [{
+            "name": "Night stay at Bomdila",
+            "location": "",
+            "description": ""
+          }],
+          "stays": [{
+            "name": "Anu Homestay",
+            "location": "7C7F+JC Bomdila, Arunachal Pradesh",
+            "contacts": [
+              "087298 95222"
+            ],
+            "rooms": [{
+              "type": "double",
+              "cost": 1500
+            }]
+          }]
+        }
+      ]
+    },
+    {
+      "places": [{
+          "name": "Bomdila",
+          "attractions": [{
+              "name": "Bomdila Monastery",
+              "location": "7CC9+6C Bomdila, Arunachal Pradesh",
+              "description": "Also known as Gentse Gaden Rabgyel Lling monastery, Bombdila monastery was built in 1965 by the twelfth incarnation of the TsonaGontse Rinpoche. And was rebuilt by the thirteenth reincarnation, TsonaGontseRinponche renovated the monastery by building a larger prayer hall."
+            },
+            {
+              "name": "Leave for Tawang",
+              "location": "Bomdila to Tawang",
+              "description": "Approximately 6h required to travel about 200km"
+            }
+          ],
+          "stays": [{
+            "name": "Anu Homestay",
+            "location": "7C7F+JC Bomdila, Arunachal Pradesh",
+            "contacts": [
+              "087298 95222"
+            ],
+            "rooms": [{
+              "type": "multiple",
+              "cost": 1500
+            }]
+          }]
+        },
+        {
+          "name": "Tawang",
+          "attractions": [{
+            "name": "Night Stay at Tawang",
+            "location": "",
+            "description": ""
+          }],
+          "stays": [{
+              "name": "Circuit House",
+              "location": "HVWC+JV Tawang, Arunachal Pradesh",
+              "contacts": [
+                "094360 97999"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "The Shangri-La Serene",
+              "location": "HVR7+QW Tawang, Arunachal Pradesh",
+              "contacts": [
+                ""
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Hotel Tawang Holiday",
+              "location": "HVW9+3P Tawang, Arunachal Pradesh",
+              "contacts": [
+                "087945 54003"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 2184
+                },
+                {
+                  "type": "double",
+                  "cost": 4180
+                }
+              ]
+            },
+            {
+              "name": "Vamoosetrail Tawang (1)",
+              "location": "HVP5+M3 Tawang",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 8260
+              }]
+            },
+            {
+              "name": "Vamoosetrail Tawang (2)",
+              "location": "HVVC+V3 Tawang",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 4032
+                },
+                {
+                  "type": "multiple",
+                  "cost": 6372
+                },
+                {
+                  "type": "multiple",
+                  "cost": 8260
+                }
+              ]
+            },
+            {
+              "name": "Vamoosetrail Tawang (4)",
+              "location": "HVR8+32 Tawang",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 4032
+                },
+                {
+                  "type": "multiple",
+                  "cost": 4480
+                },
+                {
+                  "type": "multiple",
+                  "cost": 5900
+                }
+              ]
+            },
+            {
+              "name": "Vamoosetrail Tawang (5)",
+              "location": "HVQ5+39 Tawang",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 5376
+              }]
+            },
+            {
+              "name": "Vamoosetrail Tawang (6)",
+              "location": "HVR5+5C Tawang",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 7080
+              }]
+            },
+            {
+              "name": "Vamoosetrail Tawang (7)",
+              "location": "HVR8+28 Tawang",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 4536
+              }]
+            },
+            {
+              "name": "Treebo Trip Yangsel",
+              "location": "HVQ7+RP Tawang, Arunachal Pradesh",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 8732
+              }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "places": [{
+        "name": "Tawang",
+        "attractions": [{
+            "name": "Tawang Monastery",
+            "location": "HVP5+M3 Tawang, Arunachal Pradesh",
+            "description": "Tawang Monastery, located in Tawang city of Tawang district in the Indian state of Arunachal Pradesh, is the largest monastery in India and second largest in the world after the Potala Palace in Lhasa, Tibet."
+          },
+          {
+            "name": "Tawang War Memorial",
+            "location": "HVPG+PP Tawang, Arunachal Pradesh",
+            "description": "The Tawang War Memorial was built in memory of soldiers of the Indian Army who gave up their life in the 1962 Indo-Sino War. This is a fitting memorial for the greatest sacrifice anyone can offer. Located on a slope just before reaching the main town, the Tawang War Memorial is open to the public. The 40 ft structure was built by the Indian Army; Rs.15 lakhs were spent on constructing it."
+          },
+          {
+            "name": "Giant Buddha Statue",
+            "location": "HVXC+2F Tawang, Arunachal Pradesh",
+            "description": "This statue can be seen from almost everywhere. It is located on a small hill & offers some really good views of the entire township."
+          },
+          {
+            "name": "Jung Nurarang Falls",
+            "location": "7MVHHXQM+Q8",
+            "description": "Nuranang Falls, some 100 metres high, is located in the Tawang district of Arunachal Pradesh, India. It is one of the most spectacular waterfalls in this part of the country, yet is unknown to many travelers."
+          },
+          {
+            "name": "Gorichen Peak",
+            "location": "7MVJQ9VQ+X2",
+            "description": "Gorichen Peak is the highest peak of Arunachal Pradesh and it is located between Tawang and West Kameng districts of Arunachal Pradesh. Situated at an altitude of 22,500 feet above sea level, this peak is roughly 164 kilometre from Tawang."
+          },
+          {
+            "name": "Sela Pass",
+            "location": "7MVJG443+RX",
+            "description": "The Sela Pass is a high-altitude mountain pass located on the border between the Tawang and West Kameng Districts of Arunachal Pradesh state in India. It has an elevation of 4170 m and connects the Indian Buddhist town of Tawang to Dirang and Guwahati."
+          },
+          {
+            "name": "Sungester Tso (Madhuri Lake)",
+            "location": "7MVHPRCF+MG",
+            "description": "The Sangestar Tso Lake is also called as Madhuri Lake, which is located on the way from Tawang to Bum La Pass in Tawang district of Arunachal Pradesh, near Indo-China border above 15,200 ft above sea level."
+          },
+          {
+            "name": "Bum La Pass",
+            "location": "7MVHQQ4J+FG",
+            "description": "The Bum La Pass is located about 37 km away from Tawang in Arunachal Pradesh, at the Indo-China border above 15,200 ft above sea level."
+          },
+          {
+            "name": "Night Stay at Tawang",
+            "location": "",
+            "description": ""
+          }
+        ],
+        "stays": [{
+            "name": "Circuit House",
+            "location": "HVWC+JV Tawang, Arunachal Pradesh",
+            "contacts": [
+              "094360 97999"
+            ],
+            "rooms": []
+          },
+          {
+            "name": "The Shangri-La Serene",
+            "location": "HVR7+QW Tawang, Arunachal Pradesh",
+            "contacts": [
+              ""
+            ],
+            "rooms": []
+          },
+          {
+            "name": "Hotel Tawang Holiday",
+            "location": "HVW9+3P Tawang, Arunachal Pradesh",
+            "contacts": [
+              "087945 54003"
+            ],
+            "rooms": [{
+                "type": "double",
+                "cost": 2184
+              },
+              {
+                "type": "double",
+                "cost": 4180
+              }
+            ]
+          },
+          {
+            "name": "Vamoosetrail Tawang (1)",
+            "location": "HVP5+M3 Tawang",
+            "contacts": [
+              ""
+            ],
+            "rooms": [{
+              "type": "double",
+              "cost": 8260
+            }]
+          },
+          {
+            "name": "Vamoosetrail Tawang (2)",
+            "location": "HVVC+V3 Tawang",
+            "contacts": [
+              ""
+            ],
+            "rooms": [{
+                "type": "double",
+                "cost": 4032
+              },
+              {
+                "type": "multiple",
+                "cost": 6372
+              },
+              {
+                "type": "multiple",
+                "cost": 8260
+              }
+            ]
+          },
+          {
+            "name": "Vamoosetrail Tawang (4)",
+            "location": "HVR8+32 Tawang",
+            "contacts": [
+              ""
+            ],
+            "rooms": [{
+                "type": "double",
+                "cost": 4032
+              },
+              {
+                "type": "multiple",
+                "cost": 4480
+              },
+              {
+                "type": "multiple",
+                "cost": 5900
+              }
+            ]
+          },
+          {
+            "name": "Vamoosetrail Tawang (5)",
+            "location": "HVQ5+39 Tawang",
+            "contacts": [
+              ""
+            ],
+            "rooms": [{
+              "type": "double",
+              "cost": 5376
+            }]
+          },
+          {
+            "name": "Vamoosetrail Tawang (6)",
+            "location": "HVR5+5C Tawang",
+            "contacts": [
+              ""
+            ],
+            "rooms": [{
+              "type": "double",
+              "cost": 7080
+            }]
+          },
+          {
+            "name": "Vamoosetrail Tawang (7)",
+            "location": "HVR8+28 Tawang",
+            "contacts": [
+              ""
+            ],
+            "rooms": [{
+              "type": "double",
+              "cost": 4536
+            }]
+          },
+          {
+            "name": "Treebo Trip Yangsel",
+            "location": "HVQ7+RP Tawang, Arunachal Pradesh",
+            "contacts": [
+              ""
+            ],
+            "rooms": [{
+              "type": "double",
+              "cost": 8732
+            }]
+          }
+        ]
+      }]
+    },
+    {
+      "places": [{
+          "name": "Tawang",
+          "attractions": [{
+            "name": "Leave for Dirang",
+            "location": "Tawang to Dirang",
+            "description": "Approximately 5h required to travel about 150km"
+          }],
+          "stays": [{
+              "name": "Circuit House",
+              "location": "HVWC+JV Tawang, Arunachal Pradesh",
+              "contacts": [
+                "094360 97999"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "The Shangri-La Serene",
+              "location": "HVR7+QW Tawang, Arunachal Pradesh",
+              "contacts": [
+                ""
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Hotel Tawang Holiday",
+              "location": "HVW9+3P Tawang, Arunachal Pradesh",
+              "contacts": [
+                "087945 54003"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 2184
+                },
+                {
+                  "type": "double",
+                  "cost": 4180
+                }
+              ]
+            },
+            {
+              "name": "Vamoosetrail Tawang (1)",
+              "location": "HVP5+M3 Tawang",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 8260
+              }]
+            },
+            {
+              "name": "Vamoosetrail Tawang (2)",
+              "location": "HVVC+V3 Tawang",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 4032
+                },
+                {
+                  "type": "multiple",
+                  "cost": 6372
+                },
+                {
+                  "type": "multiple",
+                  "cost": 8260
+                }
+              ]
+            },
+            {
+              "name": "Vamoosetrail Tawang (4)",
+              "location": "HVR8+32 Tawang",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 4032
+                },
+                {
+                  "type": "multiple",
+                  "cost": 4480
+                },
+                {
+                  "type": "multiple",
+                  "cost": 5900
+                }
+              ]
+            },
+            {
+              "name": "Vamoosetrail Tawang (5)",
+              "location": "HVQ5+39 Tawang",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 5376
+              }]
+            },
+            {
+              "name": "Vamoosetrail Tawang (6)",
+              "location": "HVR5+5C Tawang",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 7080
+              }]
+            },
+            {
+              "name": "Vamoosetrail Tawang (7)",
+              "location": "HVR8+28 Tawang",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 4536
+              }]
+            },
+            {
+              "name": "Treebo Trip Yangsel",
+              "location": "HVQ7+RP Tawang, Arunachal Pradesh",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 8732
+              }]
+            }
+          ]
+        },
+        {
+          "name": "Dirang",
+          "attractions": [{
+            "name": "Night Stay at Dirang",
+            "location": "",
+            "description": ""
+          }],
+          "stays": [{
+              "name": "Hotel Samdup Khang",
+              "location": "963V+PW Dirang, Arunachal Pradesh",
+              "contacts": [
+                "094028 69201"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 1646
+              }]
+            },
+            {
+              "name": "Hotel Pemaling",
+              "location": "9722+P2 Dirang, Arunachal Pradesh",
+              "contacts": [
+                "082589 19962"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 1538
+                },
+                {
+                  "type": "double",
+                  "cost": 2950
+                },
+                {
+                  "type": "multiple",
+                  "cost": 4425
+                }
+              ]
+            },
+            {
+              "name": "Awoo Resort",
+              "location": "962X+W2 Dirang, Arunachal Pradesh",
+              "contacts": [
+                "098629 41109"
+              ],
+              "rooms": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "places": [{
+          "name": "Dirang",
+          "attractions": [{
+              "name": "Sangti Valley",
+              "location": "7MVJC75Q+CH",
+              "description": "Surrounded by the towering ranges of Eastern Himalayas, blessed with pleasant weather round the year with maybe some light snowfall in the winter months, covered with fruit orchards (kiwi fruit, apple, apricot, orange), dotted with pristine forests and meandering fast hill rivers and home to a very interesting culture and tradition."
+            },
+            {
+              "name": "Thupsung Dhargye Monastery",
+              "location": "965R+99 Dirang, Arunachal Pradesh",
+              "description": "hupsung Dhargye Ling is a temple and learning institute for the study of Tibetan Buddhism by laypeople and monks, located in the Himalayan village of Dirang, India. The name, Thupsung Dhargye Ling was given by His Holiness, the Dalai Lama and means: \"Place of Flourishing of the Buddha's Speech\"."
+            },
+            {
+              "name": "Lopon Stadium",
+              "location": "968Q+PQ Dirang, Arunachal Pradesh",
+              "description": ""
+            },
+            {
+              "name": "Hot Water Spring",
+              "location": "7MVJ96HJ+CP",
+              "description": "A visit to the hot water spring on the road to Tawang from Dirang is a relaxing and rejuvenating experience. The water is rich in sulphur, which makes it rich in medicinal properties. Thus, it can cure you from all types of diseases. The hot water spring attracts good number of people from across India."
+            },
+            {
+              "name": "Leave for Bhalukpong",
+              "location": "Dirang to Bhalukpong",
+              "description": "Approximately 5h required to travel about 150km"
+            }
+          ],
+          "stays": [{
+              "name": "Hotel Samdup Khang",
+              "location": "963V+PW Dirang, Arunachal Pradesh",
+              "contacts": [
+                "094028 69201"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 1646
+              }]
+            },
+            {
+              "name": "Hotel Pemaling",
+              "location": "9722+P2 Dirang, Arunachal Pradesh",
+              "contacts": [
+                "082589 19962"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 1538
+                },
+                {
+                  "type": "double",
+                  "cost": 2950
+                },
+                {
+                  "type": "multiple",
+                  "cost": 4425
+                }
+              ]
+            },
+            {
+              "name": "Awoo Resort",
+              "location": "962X+W2 Dirang, Arunachal Pradesh",
+              "contacts": [
+                "098629 41109"
+              ],
+              "rooms": []
+            }
+          ]
+        },
+        {
+          "name": "Bhalukpong",
+          "attractions": [{
+            "name": "Night Stay at Bhalukpong",
+            "location": "",
+            "description": ""
+          }],
+          "stays": [{
+              "name": "Prashanti Lodge",
+              "location": "2J7W+3V Bhalukpong, Arunachal Pradesh",
+              "contacts": [
+                "099570 81781"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Hotel Solu",
+              "location": "2J6W+6F Bhalukpong, Arunachal Pradesh",
+              "contacts": [
+                "+(91)-3780-234955"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 2016
+                },
+                {
+                  "type": "double",
+                  "cost": 3186
+                }
+              ]
+            },
+            {
+              "name": "Nameri Eco Camp",
+              "location": "WRFG+PX Potasali, Assam",
+              "contacts": [
+                "03714 292 644"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Hotel Kameng Inn",
+              "location": "2J8Q+5Q Bhalukpong, Arunachal Pradesh",
+              "contacts": [
+                "03782 234 865"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Waii International Hotel",
+              "location": "2J6V+VR Bhalukpong, Arunachal Pradesh",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 3500
+                },
+                {
+                  "type": "double",
+                  "cost": 5000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "places": [{
+          "name": "Bhalukpong",
+          "attractions": [{
+              "name": "Pakka Tiger Reserve",
+              "location": "7MVJ3RX9+84",
+              "description": "Pakke Tiger Reserve, also known as Pakhui Tiger Reserve, is a Project Tiger reserve in the East Kameng district of Arunachal Pradesh in northeastern India. The 862 km² reserve is protected by the Department of Environment and Forest of Arunachal Pradesh."
+            },
+            {
+              "name": "Kameng River",
+              "location": "",
+              "description": "The Kameng River (previously named Bhareli River (ভৰলী নদী), now called Kameng in Arunachal Pradesh and Jia Bhoreli in Assam) in the eastern Himalayan mountains, originates in Tawang district from the glacial lake below snow-capped Gori Chen mountain."
+            },
+            {
+              "name": "Rubber Hub And Litchi Fruit Farm of Bhalukpong",
+              "location": "7MVJ2JGC+HM",
+              "description": ""
+            },
+            {
+              "name": "Nameri Sanctuary",
+              "location": "7MRJWVJG+XV",
+              "description": "Nameri National Park is a national park in the foothills of the eastern Himalayas in the Sonitpur District of Assam, India, about 35 km from Tezpur. Nameri is about 9 km from Chariduar, the nearest village. Nameri shares its northern boundary with the Pakhui Wildlife Sanctuary of Arunachal Pradesh.\nSafari times are as below:"
+            },
+            {
+              "name": "Leave for Itanagar",
+              "location": "Bhalukpong to Itanagar",
+              "description": "Approximately 5h required to travel about 180km"
+            }
+          ],
+          "stays": [{
+              "name": "Prashanti Lodge",
+              "location": "2J7W+3V Bhalukpong, Arunachal Pradesh",
+              "contacts": [
+                "099570 81781"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Hotel Solu",
+              "location": "2J6W+6F Bhalukpong, Arunachal Pradesh",
+              "contacts": [
+                "+(91)-3780-234955"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 2016
+                },
+                {
+                  "type": "double",
+                  "cost": 3186
+                }
+              ]
+            },
+            {
+              "name": "Nameri Eco Camp",
+              "location": "WRFG+PX Potasali, Assam",
+              "contacts": [
+                "03714 292 644"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Hotel Kameng Inn",
+              "location": "2J8Q+5Q Bhalukpong, Arunachal Pradesh",
+              "contacts": [
+                "03782 234 865"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Waii International Hotel",
+              "location": "2J6V+VR Bhalukpong, Arunachal Pradesh",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 3500
+                },
+                {
+                  "type": "double",
+                  "cost": 5000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Itanagar",
+          "attractions": [{
+              "name": "Itanagar Gompa",
+              "location": "4J3G+8C Itanagar, Arunachal Pradesh",
+              "description": "Centre for Buddhist Culture Gompa is located on top of a hill just above the Nehru Museum. Adorned with a beautiful gate at the base of the hill, a road spiraled up the hill to the gompa. The Gompa is actually near the main road but it seemed separated from the rest of the town by this small hill."
+            },
+            {
+              "name": "Ita Fort",
+              "location": "3JRJ+VP Itanagar, Arunachal Pradesh",
+              "description": "Ita Fort in Itanagar town, is one of the most important historical sites in the state of Arunachal Pradesh, India. The name literally means \"Fort of bricks\". It also lends its name to the city Itanagar, the capital of Arunachal Pradesh."
+            },
+            {
+              "name": "State Museum",
+              "location": "4J2G+R2 Itanagar, Arunachal Pradesh",
+              "description": "The Jawaharlal Nehru State Museum also referred to as Jawaharlal Nehru Museum is the state museum of Arunachal Pradesh, in Itanagar. Established in the 1980s, it showcases aspects of tribal life of Arunachal Pradesh, India. These include clothing, helocation, weapons, handicraft, music instruments, jewellery and other artifacts of daily use and culture, besides archeological finds."
+            },
+            {
+              "name": "Geker Sinying (Ganga Lake)",
+              "location": "3HG9+JM Itanagar, Arunachal Pradesh",
+              "description": "Ganga Lake or Geker Sinying is a lake in Itanagar, the capital of Arunachal Pradesh. It is one of the most popular places in Itanagar. People from all around visit this place as a recreation spot and for the picture perfect view of this lake."
+            },
+            {
+              "name": "Itanagar Science Center",
+              "location": "3JW8+RR Itanagar, Arunachal Pradesh",
+              "description": "Arunachal Pradesh Science Centre, I.G Park. Itanagar popularly known as Science Museum is a premier institution committed to popularize science in the state, especially among the student community. This Science Centre is spread over an area of 1.5 hectare. This Centre was sponsored by National Council of Science Museums Kolkata, Ministry of Culture, Government of India and Department of Science & Technology, Government of Arunachal Pradesh."
+            },
+            {
+              "name": "Indira Gandhi Park (Online City Park)",
+              "location": "3JXC+7J Itanagar, Arunachal Pradesh",
+              "description": "The park is very close to the VIP road in Itanagar. It was refreshing to see the lush greenery in the middle of town, which was very dusty during my stay."
+            },
+            {
+              "name": "Night Stay at Itanagar",
+              "location": "",
+              "description": ""
+            }
+          ],
+          "stays": [{
+              "name": "Hotel Arunachal",
+              "location": "4M4V+P5 Naharlagun, Arunachal Pradesh",
+              "contacts": [
+                "0360 224 4960"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Hotel Donyi Polo Ashok",
+              "location": "3JWM+98 Itanagar, Arunachal Pradesh",
+              "contacts": [
+                "0360 221 2626"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Hotel Itafort",
+              "location": "3JXG+XJ Itanagar, Arunachal Pradesh",
+              "contacts": [
+                "0360 221 2806"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 5150
+              }]
+            },
+            {
+              "name": "Hotel AANE",
+              "location": "4J2G+2X Itanagar, Arunachal Pradesh",
+              "contacts": [
+                "0360 221 1289"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 3103
+              }]
+            },
+            {
+              "name": "Waii International Hotel",
+              "location": "4J3F+Q9 Itanagar, Arunachal Pradesh",
+              "contacts": [
+                "0360 229 1471"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 5000
+              }]
+            },
+            {
+              "name": "Hotel Pybss",
+              "location": "3JVC+9H Itanagar, Arunachal Pradesh",
+              "contacts": [
+                "3JVC+9H Itanagar, Arunachal Pradesh"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 4484
+                },
+                {
+                  "type": "multiple",
+                  "cost": 9726
+                }
+              ]
+            },
+            {
+              "name": "Hotel Su Pinsa",
+              "location": "3JVC+J5 Itanagar, Arunachal Pradesh",
+              "contacts": [
+                "082579 60836"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 7245
+                },
+                {
+                  "type": "double",
+                  "cost": 3817
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "places": [{
+          "name": "Itanagar",
+          "attractions": [{
+            "name": "Leave for Ziro",
+            "location": "Itanagar to Ziro",
+            "description": "Approximately 5h required to travel about 120km"
+          }],
+          "stays": [{
+              "name": "Hotel Arunachal",
+              "location": "4M4V+P5 Naharlagun, Arunachal Pradesh",
+              "contacts": [
+                "0360 224 4960"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Hotel Donyi Polo Ashok",
+              "location": "3JWM+98 Itanagar, Arunachal Pradesh",
+              "contacts": [
+                "0360 221 2626"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Hotel Itafort",
+              "location": "3JXG+XJ Itanagar, Arunachal Pradesh",
+              "contacts": [
+                "0360 221 2806"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 5150
+              }]
+            },
+            {
+              "name": "Hotel AANE",
+              "location": "4J2G+2X Itanagar, Arunachal Pradesh",
+              "contacts": [
+                "0360 221 1289"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 3103
+              }]
+            },
+            {
+              "name": "Waii International Hotel",
+              "location": "4J3F+Q9 Itanagar, Arunachal Pradesh",
+              "contacts": [
+                "0360 229 1471"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 5000
+              }]
+            },
+            {
+              "name": "Hotel Pybss",
+              "location": "3JVC+9H Itanagar, Arunachal Pradesh",
+              "contacts": [
+                "3JVC+9H Itanagar, Arunachal Pradesh"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 4484
+                },
+                {
+                  "type": "multiple",
+                  "cost": 9726
+                }
+              ]
+            },
+            {
+              "name": "Hotel Su Pinsa",
+              "location": "3JVC+J5 Itanagar, Arunachal Pradesh",
+              "contacts": [
+                "082579 60836"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 7245
+                },
+                {
+                  "type": "double",
+                  "cost": 3817
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ziro",
+          "attractions": [{
+            "name": "Night Stay at Ziro",
+            "location": "",
+            "description": ""
+          }],
+          "stays": [{
+              "name": "Hotel Pine Ridge",
+              "location": "3JQ6+3G Itanagar, Arunachal Pradesh",
+              "contacts": [
+                ""
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Siiro Resort",
+              "location": "GRFM+PJ Ziro, Arunachal Pradesh",
+              "contacts": [
+                "03788 225 123",
+                "http://www.siiroresort.com"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 1200
+              }]
+            },
+            {
+              "name": "Hotel Blue Pine",
+              "location": "GRV5+63 Ziro, Arunachal Pradesh",
+              "contacts": [
+                "03788 224 812"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Passa Lath Resort",
+              "location": "7MVMHR7H+2V",
+              "contacts": [
+                "085757 59112"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Vamoosetrail Ziro (1)",
+              "location": "GRR8+FC Ziro",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                  "type": "single",
+                  "cost": 1904
+                },
+                {
+                  "type": "double",
+                  "cost": 4130
+                }
+              ]
+            },
+            {
+              "name": "Vamoosetrail Ziro (2)",
+              "location": "HRRH+55 Old Ziro",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                  "type": "single",
+                  "cost": 2520
+                },
+                {
+                  "type": "double",
+                  "cost": 5310
+                }
+              ]
+            },
+            {
+              "name": "Vamoosetrail Ziro (3)",
+              "location": "GQQ3+95 Yazali",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                  "type": "single",
+                  "cost": 2340
+                },
+                {
+                  "type": "double",
+                  "cost": 4484
+                }
+              ]
+            },
+            {
+              "name": "Vamoosetrail Ziro (4)",
+              "location": "GRV9+WR Ziro, Arunachal Pradesh",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 2950
+              }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "places": [{
+          "name": "Ziro",
+          "attractions": [{
+              "name": "Ziro Point",
+              "location": "7MVMQGFG+R5",
+              "description": ""
+            },
+            {
+              "name": "Talley Valley Sanctuary",
+              "location": "7MVMGRWJ+63",
+              "description": "Talley Valley Wildlife Sanctuary is a wildlife sanctuary in Arunachal Pradesh, India. Arunachal Pradesh as a whole contains 40% of the floral and faunal species in India. The Ziro valley has a good share of this biodiversity. 30 kilometres from the town of Ziro is the sanctuary."
+            },
+            {
+              "name": "Tarin Fish Farm",
+              "location": "",
+              "description": "Tarin Fish Farms is a part of the Bulla village, which is inhabited by the people of Apatani tribes. The best part about this place is that here you can see the process of raising the two crops of rice (Mipya and Emoh) and a breed of fish (Ngihi) together, a practice which is followed by the Apatanis tribes."
+            },
+            {
+              "name": "Dolo Mando",
+              "location": "",
+              "description": "Dolo Mando is a hillock that is situated on the western side of Ziro on the Daporijo Road. The place is ideal for trekking with the rewards of spectacular views. One has to trek to this place to get the amazing view of the town of Hapoli and parts of Old Ziro."
+            },
+            {
+              "name": "Leave for Majuli Island",
+              "location": "Ziro to Majuli Island",
+              "description": "Approximately 7h required to travel about 170km\nFerry is required to get to Majuli Island"
+            }
+          ],
+          "stays": [{
+              "name": "Hotel Pine Ridge",
+              "location": "3JQ6+3G Itanagar, Arunachal Pradesh",
+              "contacts": [
+                ""
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Siiro Resort",
+              "location": "GRFM+PJ Ziro, Arunachal Pradesh",
+              "contacts": [
+                "03788 225 123",
+                "http://www.siiroresort.com"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 1200
+              }]
+            },
+            {
+              "name": "Hotel Blue Pine",
+              "location": "GRV5+63 Ziro, Arunachal Pradesh",
+              "contacts": [
+                "03788 224 812"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Passa Lath Resort",
+              "location": "7MVMHR7H+2V",
+              "contacts": [
+                "085757 59112"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Vamoosetrail Ziro (1)",
+              "location": "GRR8+FC Ziro",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                  "type": "single",
+                  "cost": 1904
+                },
+                {
+                  "type": "double",
+                  "cost": 4130
+                }
+              ]
+            },
+            {
+              "name": "Vamoosetrail Ziro (2)",
+              "location": "HRRH+55 Old Ziro",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                  "type": "single",
+                  "cost": 2520
+                },
+                {
+                  "type": "double",
+                  "cost": 5310
+                }
+              ]
+            },
+            {
+              "name": "Vamoosetrail Ziro (3)",
+              "location": "GQQ3+95 Yazali",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                  "type": "single",
+                  "cost": 2340
+                },
+                {
+                  "type": "double",
+                  "cost": 4484
+                }
+              ]
+            },
+            {
+              "name": "Vamoosetrail Ziro (4)",
+              "location": "GRV9+WR Ziro, Arunachal Pradesh",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 2950
+              }]
+            }
+          ]
+        },
+        {
+          "name": "Majuli Island",
+          "attractions": [{
+            "name": "Night Stay at Majuli Island",
+            "location": "",
+            "description": ""
+          }],
+          "stays": [{
+              "name": "Risong Guest house",
+              "location": "X5M3+QF Natun Kulamora Chapori N.C., Assam",
+              "contacts": [
+                "095087 90587"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 900
+              }]
+            },
+            {
+              "name": "La Maison de Ananda",
+              "location": "X5M3+MJ Natun Kulamora Chapori N.C., Assam",
+              "contacts": [
+                "099571 86356"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 1600
+              }]
+            },
+            {
+              "name": "Dekasang Majuli",
+              "location": "X5R3+H5 Natun Kulamora Chapori N.C., Assam",
+              "contacts": [
+                "098547 15435"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Okegiga Homes",
+              "location": "X5R2+99 Majuli, Assam",
+              "contacts": [
+                "088223 90306"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 1344
+                },
+                {
+                  "type": "multiple",
+                  "cost": 1680
+                }
+              ]
+            },
+            {
+              "name": "Shanti kunj Bamboo cottage",
+              "location": "X49V+FF Garmur Satra, Assam",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 1792
+                },
+                {
+                  "type": "multiple",
+                  "cost": 2240
+                }
+              ]
+            },
+            {
+              "name": "Dulce Hogar Home Stay",
+              "location": "X567+7Q Doria Gaon, Assam",
+              "contacts": [
+                "091014 82880"
+              ],
+              "rooms": [{
+                "type": "multiple",
+                "cost": 1454
+              }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "places": [{
+          "name": "Majuli Island",
+          "attractions": [{
+              "name": "Sri Sri Auniati Satra (श्री श्री दखिनपत सतारा)",
+              "location": "W4RF+2G Auniati Chapori N.C., Assam",
+              "description": "Built-in the year 1584, the Shri Shri Dakhinpat Satra is visited by innumerable devotees from all over the world. The Satra is one of the best places to visit in India for serenity seekers. The Satra features a decorated gateway engraved with religious animals, motifs and flowers."
+            },
+            {
+              "name": "Majuli Island Tour",
+              "location": "X37G+J9 Barali Mora N.C., Assam",
+              "description": "The villages of Majuli are as beautiful as the Island itself. Majuli is home to quaint villages which help you to strengthen your bond with nature. These hamlets are better explored by walking slowly. One of the popular villages is Mishing Village. It is definitely a bliss to meet the amicable Mishing people. In general, they live in houses with raised platforms known as Chang ghars on the banks of the river."
+            },
+            {
+              "name": "Pathorichuk",
+              "location": "FV2J+R9 Goalpara, Assam",
+              "description": "Conceptualize your dream of delighting in a countryside expedition. The Pathorichuk village is a picturesque one and can be reached after crossing the three wooden bridges. The adventure of reaching here is definitely worth it. Besides crossing the bamboo bridge, you will enjoy a joy ride on a small boat in a traditional way. It is equally interesting to see how the country made boat works."
+            },
+            {
+              "name": "Samaguri Satra",
+              "location": "X767+GP Dhowachala Gaon, Assam",
+              "description": "An exciting experience awaits for you at the Samaguri Satra. The Satra is a dwelling place of mask makers who show exemplary skills in their field. In fact, they make amazing masks using bamboo base, dried cow dung and other things. Various dramas, called BHAWNA, take place in Majuli from time to time. Notably, these masks are important accessories of these acts."
+            },
+            {
+              "name": "Leave for Jorhat",
+              "location": "Majuli Island to Jorhat",
+              "description": "Approximately 2h required to travel about 50km.\nFerry is required to reach Jorhat"
+            }
+          ],
+          "stays": [{
+              "name": "Risong Guest house",
+              "location": "X5M3+QF Natun Kulamora Chapori N.C., Assam",
+              "contacts": [
+                "095087 90587"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 900
+              }]
+            },
+            {
+              "name": "La Maison de Ananda",
+              "location": "X5M3+MJ Natun Kulamora Chapori N.C., Assam",
+              "contacts": [
+                "099571 86356"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 1600
+              }]
+            },
+            {
+              "name": "Dekasang Majuli",
+              "location": "X5R3+H5 Natun Kulamora Chapori N.C., Assam",
+              "contacts": [
+                "098547 15435"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Okegiga Homes",
+              "location": "X5R2+99 Majuli, Assam",
+              "contacts": [
+                "088223 90306"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 1344
+                },
+                {
+                  "type": "multiple",
+                  "cost": 1680
+                }
+              ]
+            },
+            {
+              "name": "Shanti kunj Bamboo cottage",
+              "location": "X49V+FF Garmur Satra, Assam",
+              "contacts": [
+                ""
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 1792
+                },
+                {
+                  "type": "multiple",
+                  "cost": 2240
+                }
+              ]
+            },
+            {
+              "name": "Dulce Hogar Home Stay",
+              "location": "X567+7Q Doria Gaon, Assam",
+              "contacts": [
+                "091014 82880"
+              ],
+              "rooms": [{
+                "type": "multiple",
+                "cost": 1454
+              }]
+            }
+          ]
+        },
+        {
+          "name": "Jorhat",
+          "attractions": [{
+              "name": "Jorhat Tea Center",
+              "location": "P6HH+M5 Jorhat, Assam",
+              "description": "The Tocklai Tea Research Institute was established in 1911, at a site near the River Tocklai in Jorhat, Assam. The initial construction of a laboratory and two bungalows was funded by the tea industry, subsidised by the national government of India, and the Indian states of Assam and Bengal."
+            },
+            {
+              "name": "Kakochang Falls",
+              "location": "JJC5+9W Bokakhat, Assam",
+              "description": "Kakochang waterfall is also a well-known tourist attraction/picnic spot near Kaziranga. The remains of the historical Numaligarh can also be viewed from this place. The waterfall is located about 13 km from the Bokakhat, a place in the Jorhat Region of Assam."
+            },
+            {
+              "name": "Leave for Kaziranga",
+              "location": "Jorhat to Kaziranga",
+              "description": "Approximately 4h required to travel about 150km"
+            }
+          ],
+          "stays": []
+        },
+        {
+          "name": "Kaziranga",
+          "attractions": [{
+            "name": "Night Stay at Kaziranga",
+            "location": "",
+            "description": ""
+          }],
+          "stays": [{
+              "name": "Diphlu River Lodge",
+              "location": "H7J9+CV Kuthari, Assam",
+              "contacts": [
+                "0361 266 7871",
+                "http://www.diphluriverlodge.com/"
+              ],
+              "rooms": [{
+                "type": "single",
+                "cost": 15400
+              }]
+            },
+            {
+              "name": "Camp Rhino Resort",
+              "location": "H5FP+5X Kakhin Deopani N.C., Assam",
+              "contacts": [
+                "094350 60372",
+                "http://camprhino.in/"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Landmark Woods",
+              "location": "H59P+3J Kakhin Deopani N.C., Assam",
+              "contacts": [
+                "070860 51677"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 5891
+              }]
+            },
+            {
+              "name": "Green Village Resort",
+              "location": "H29V+2V Deusur Sang, Assam",
+              "contacts": [
+                "070029 34945",
+                "https://greenvillageresort.business.site/"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 4050
+                },
+                {
+                  "type": "multiple",
+                  "cost": 5851
+                }
+              ]
+            },
+            {
+              "name": "Kaziranga Resort",
+              "location": "HCP6+HG Hatikhuli T.E., Assam",
+              "contacts": [
+                "070028 31410",
+                "http://www.kazirangaresort.com/"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 2575
+                },
+                {
+                  "type": "multiple",
+                  "cost": 3302
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "places": [{
+          "name": "Kaziranga",
+          "attractions": [{
+              "name": "Kaziranga National Park",
+              "location": "H5HC+2C Kanchanjuri, Assam",
+              "description": "Kaziranga National Park is a protected area in the northeast Indian state of Assam. Spread across the floodplains of the Brahmaputra River, its forests, wetlands and grasslands are home to tigers, elephants and the world’s largest population of Indian one-horned rhinoceroses. Ganges River dolphins swim in the park’s waters. It’s visited by many rare migratory birds, and gray pelicans roost near Kaziranga village.\nJeep / Elephant Safari"
+            },
+            {
+              "name": "Leave for Guwahati",
+              "location": "Kaziranga to Guwahati",
+              "description": "Approximately 5h required to travel about 200km"
+            }
+          ],
+          "stays": [{
+              "name": "Diphlu River Lodge",
+              "location": "H7J9+CV Kuthari, Assam",
+              "contacts": [
+                "0361 266 7871",
+                "http://www.diphluriverlodge.com/"
+              ],
+              "rooms": [{
+                "type": "single",
+                "cost": 15400
+              }]
+            },
+            {
+              "name": "Camp Rhino Resort",
+              "location": "H5FP+5X Kakhin Deopani N.C., Assam",
+              "contacts": [
+                "094350 60372",
+                "http://camprhino.in/"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Landmark Woods",
+              "location": "H59P+3J Kakhin Deopani N.C., Assam",
+              "contacts": [
+                "070860 51677"
+              ],
+              "rooms": [{
+                "type": "double",
+                "cost": 5891
+              }]
+            },
+            {
+              "name": "Green Village Resort",
+              "location": "H29V+2V Deusur Sang, Assam",
+              "contacts": [
+                "070029 34945",
+                "https://greenvillageresort.business.site/"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 4050
+                },
+                {
+                  "type": "multiple",
+                  "cost": 5851
+                }
+              ]
+            },
+            {
+              "name": "Kaziranga Resort",
+              "location": "HCP6+HG Hatikhuli T.E., Assam",
+              "contacts": [
+                "070028 31410",
+                "http://www.kazirangaresort.com/"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 2575
+                },
+                {
+                  "type": "multiple",
+                  "cost": 3302
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Guwahati",
+          "attractions": [{
+              "name": "Kamakhya Temple",
+              "location": "5P84+H3 Kamakhya, Guwahati, Assam",
+              "description": "The Kamakhya Temple also known as Kamrup-Kamakhya temple, Kamakhya Devalaya, is a Hindu temple dedicated to the mother goddess Kamakhya. It is one of the oldest of the 51 Shakti Pithas."
+            },
+            {
+              "name": "Leave for Shillong",
+              "location": "Kamakhya to Shillong",
+              "description": "Approximately 4h required to travel about 120km"
+            }
+          ],
+          "stays": []
+        },
+        {
+          "name": "Shillong",
+          "attractions": [{
+            "name": "Night Stay at Shillong",
+            "location": "",
+            "description": ""
+          }],
+          "stays": [{
+              "name": "April Springs",
+              "location": "",
+              "contacts": [],
+              "rooms": []
+            },
+            {
+              "name": "Pine Brook Guest House",
+              "location": "HV7G+CV Shillong, Meghalaya",
+              "contacts": [
+                "094369 85858"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "The Homestead B&B",
+              "location": "HVCQ+FW Shillong, Meghalaya",
+              "contacts": [
+                "093665 45217"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Cafe Shillong B&B",
+              "location": "HV9Q+67 Lachumiere, Shillong, Meghalaya",
+              "contacts": [
+                "089740 66089"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 4538
+                },
+                {
+                  "type": "multiple",
+                  "cost": 5954
+                }
+              ]
+            },
+            {
+              "name": "Aiyana Guest House",
+              "location": "HWC7+RM Shillong, Meghalaya",
+              "contacts": [
+                "0364 253 7628"
+              ],
+              "rooms": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "places": [{
+          "name": "Shillong",
+          "attractions": [{
+            "name": "Leave for Krang Shuri",
+            "location": "Shillong to Krang Shuri",
+            "description": "Approximately 3h required to travel about 100km"
+          }],
+          "stays": [{
+              "name": "April Springs",
+              "location": "",
+              "contacts": [],
+              "rooms": []
+            },
+            {
+              "name": "Pine Brook Guest House",
+              "location": "HV7G+CV Shillong, Meghalaya",
+              "contacts": [
+                "094369 85858"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "The Homestead B&B",
+              "location": "HVCQ+FW Shillong, Meghalaya",
+              "contacts": [
+                "093665 45217"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Cafe Shillong B&B",
+              "location": "HV9Q+67 Lachumiere, Shillong, Meghalaya",
+              "contacts": [
+                "089740 66089"
+              ],
+              "rooms": [{
+                  "type": "double",
+                  "cost": 4538
+                },
+                {
+                  "type": "multiple",
+                  "cost": 5954
+                }
+              ]
+            },
+            {
+              "name": "Aiyana Guest House",
+              "location": "HWC7+RM Shillong, Meghalaya",
+              "contacts": [
+                "0364 253 7628"
+              ],
+              "rooms": []
+            }
+          ]
+        },
+        {
+          "name": "Krang Shuri",
+          "attractions": [{
+              "name": "Krang Shuri Waterfall",
+              "location": "74PG+W7 Amlarem, Meghalaya",
+              "description": "Krang Suri is one of the most beautiful waterfalls in the District. It is located in the Amlarem Civil Sub Division. To transform the place into a tourists destination the District Administration has initiated steps to construct Chisseled and graveled footpaths and view points to enable visitors to better appreciate the beauty of the waterfall and its surroundings. The footpaths are hewn from the natural multi colored stones available in the area, no cement has been used and stones have been placed symmetri­cally to enhance the aesthetic appeal of the area."
+            },
+            {
+              "name": "Jairain Pitcher Plant Lake",
+              "location": "84FM+QC Shkentalang, Meghalaya",
+              "description": "Located at Jarain, in Amlarem subdivision of War-Jaintia region amid the natural habitat of the carnivorous pitcher plant -- Nepenthenes Khasiana spreads over an area of 50,000 square metres. A pretty lake sits placidly amid gravelled footpaths, arch bridges, pitcher plant garden and green house -interpretation centre."
+            },
+            {
+              "name": "Tyrshi Falls",
+              "location": "F5CR+MJ Jowai, Meghalaya",
+              "description": "Tyrshi Falls on the Shillong-Jowai Road (NH 44) is Jowai's answer to Shillong's Elephant Falls. This fall is located about 5 kms from Jowai. A pretty arch bridge connects across an expanse of green paddy fields, which opens up to the gushing Tyrshi falls thundering down to the Pynthor (paddy-fields) below. A winding footpath offering a breathtaking and panoramic view of the Pynthor Nein, eases your trek down to the bottom of the falls, which glides down like milk over a vertical drop."
+            },
+            {
+              "name": "Leave for Dawki / Shnongpdeng",
+              "location": "Krang Shuri to Dawki / Shnongpdeng",
+              "description": "Approximately 1h required to travel about 30km"
+            }
+          ],
+          "stays": []
+        },
+        {
+          "name": "Dawki / Shnongpdeng",
+          "attractions": [{
+              "name": "Jaflong Zero Point",
+              "location": "52P8+CQ Dawki, Meghalaya",
+              "description": "The perspective of the stream crossing the International fringe amongst India and Bangladesh is a value seeing in Dawki. The circumscribed town offers stunning perspectives all through closures here with this incredible sight of the Umngot River. At 0 point there would be Indian outskirt protects who keep the eye over any unanticipated conditions guaranteeing the security of the fringe and guests."
+            },
+            {
+              "name": "Dawki River",
+              "location": "52P8+J8 Dawki, Meghalaya",
+              "description": ""
+            },
+            {
+              "name": "Friendship Gate",
+              "location": "",
+              "description": "The Friendship Gate has been constructed near Integrated Check post, 90 km South of capital Shillong on border with Bangladesh."
+            },
+            {
+              "name": "Songrampunji Waterfall",
+              "location": "52P4+F6 Jaflong, Bangladesh",
+              "description": "A waterfall in the area of ​​Goingghat under Sylhet district 'Sangramunji Waterfall' This waterfall is located on the foothills of the Khasia-Jainta hill, which is located on the Meghalaya border of India, about 62 kilometers north-east of Sylhet city. From here, Jaflong zero point is just 1 kilometer west. The hills, waterfalls and river junctions make the place attractive to the tourists."
+            },
+            {
+              "name": "Boating",
+              "location": "52P8+MW Dawki, Meghalaya",
+              "description": "₹ 500 to ₹ 750 per boat for a boating duration of a couple of hours"
+            },
+            {
+              "name": "Byrdaw Falls",
+              "location": "6X72+X6 Lapalang, Meghalaya",
+              "description": "Byrdaw Falls is located at Pomshutia village, in the East Khasi Hills District of Meghalaya. Byrdaw Falls is about 70 kilometers away from state capital, Shillong on the way to Dawki."
+            },
+            {
+              "name": "Wah Umngot",
+              "location": "6245+35 Shnongpdeng, Meghalaya",
+              "description": "About 86.2 K.m. wah umngot river from Shillong (Meghalaya). The water in this place is so clean and transparent that it looks like this boat is floating in the air unique view of nature! This was the river Umngot, possibly India's cleanest river. Umngot flows through Dawki, a small but busy town in the East Jaintia Hills district near the Indo-Bangladesh border. The town itself is a mere 86.2 km from Shillong. The Umngot itself is a prime fishing spot for fishermen from nearby areas."
+            },
+            {
+              "name": "Mawshun Caves",
+              "location": "6XJ4+PM Mynrieng, Meghalaya",
+              "description": "The Cave lies around 680m in an immediate line east of the congregation at Lelad however 100m lower. It is a dendritic ace stream give in that goes about as an authority for a few channels and depletes the zone east of the town Lelad. The uninviting passageway. In the middle of stones, opens to a 5m pot that drops into a fine, clean-washed stream section, which again prompts a 24m profound pitch. The stream section gets bigger, both upstream and downstream, with the downstream entry estimating 12m by 10m."
+            }
+          ],
+          "stays": [{
+              "name": "Shnongpdeng Camping",
+              "location": "6245+PH Shnongpdeng, Meghalaya",
+              "contacts": [
+                "070055 03922"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Kenny/pacify Camping Tents",
+              "location": "6245+VR Shnongpdeng, Meghalaya",
+              "contacts": [
+                "088370 58317"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Riverside Camping Tent",
+              "location": "6245+W3 Shnongpdeng, Meghalaya",
+              "contacts": [
+                "088370 58317"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Marvel’s Camps",
+              "location": "6254+FP Shnongpdeng, Meghalaya",
+              "contacts": [
+                "070858 71825"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Gawooh Adventure",
+              "location": "6244+M7 Shnongpdeng, Meghalaya",
+              "contacts": [
+                "087875 68561"
+              ],
+              "rooms": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "places": [{
+          "name": "Dawki / Shnongpdeng",
+          "attractions": [{
+            "name": "Leave for Mawlynnong",
+            "location": "Dawki / Shnongpdeng to Mawlynnong",
+            "description": "Approximately 2h required to travel about 45km"
+          }],
+          "stays": [{
+              "name": "Shnongpdeng Camping",
+              "location": "6245+PH Shnongpdeng, Meghalaya",
+              "contacts": [
+                "070055 03922"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Kenny/pacify Camping Tents",
+              "location": "6245+VR Shnongpdeng, Meghalaya",
+              "contacts": [
+                "088370 58317"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Riverside Camping Tent",
+              "location": "6245+W3 Shnongpdeng, Meghalaya",
+              "contacts": [
+                "088370 58317"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Marvel’s Camps",
+              "location": "6254+FP Shnongpdeng, Meghalaya",
+              "contacts": [
+                "070858 71825"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Gawooh Adventure",
+              "location": "6244+M7 Shnongpdeng, Meghalaya",
+              "contacts": [
+                "087875 68561"
+              ],
+              "rooms": []
+            }
+          ]
+        },
+        {
+          "name": "Mawlynnong",
+          "attractions": [{
+              "name": "Village tour",
+              "location": "6W28+G7 Mawlynnong, Meghalaya",
+              "description": "Mawlynnong is a village in the East Khasi Hills district of the Meghalaya state in North East India. It is notable for its cleanliness. It comes under the Pynursla community development block and Vidhan Sabha constituency."
+            },
+            {
+              "name": "Jingmaham Living Root Bridge",
+              "location": "6V4X+J3 Nongthymmai, Meghalaya",
+              "description": "One of the greatest attraction of the Shillong and Meghalaya tour as the pics for this live root bridge can be seen online whenever you search for Shillong tourist destination. However seeing a pic and the view of the real bridge in front of your eyes is a different experience altogether. A rocky staircase or you may call it a rocky path leads you to the root bridge. There is a charge for visiting this bridge which is ₹ 40/- per person. No one allowed to stand on the bridge. Cross the bridge and sit on the rocks on the river soaking your feet in water."
+            },
+            {
+              "name": "(Maw Ryngkew Sharatia) Balancing Rock",
+              "location": "6W45+HM Mawlynnong, Meghalaya",
+              "description": "On the outskirts of the village lies a balancing rock, a must see nature's wonder for science freaks. Enclosed within a wired fence, the spot has two stones, a huge boulder resting on a smaller stone. The structure has remained like that for ages and no cyclone or storm has been able to disturb the formation. The place, which is surrounded by bamboo plantations, is called Nature's Balancing Rock or Maw Ryngkew Sharatia, locally. "
+            },
+            {
+              "name": "Leave for Cherrapunjee",
+              "location": "Mawlynnong to Cherrapunjee",
+              "description": "Approximately 3h required to travel about 90km"
+            }
+          ],
+          "stays": []
+        },
+        {
+          "name": "Cherrapunjee",
+          "attractions": [{
+            "name": "Night Stay at Cherrapunjee",
+            "location": "",
+            "description": ""
+          }],
+          "stays": [{
+              "name": "Jiva Resort",
+              "location": "7P6X+92 Cherrapunjee, Meghalaya",
+              "contacts": [
+                "070851 77777"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Saimika Resort",
+              "location": "7PQ3+5H Cherrapunjee, Meghalaya",
+              "contacts": [
+                "098622 21718"
+              ],
+              "rooms": [{
+                "type": "multiple",
+                "cost": 3240
+              }]
+            },
+            {
+              "name": "Cafe Cherrapunjee",
+              "location": "CQHR+RR Mawjrong, Meghalaya",
+              "contacts": [
+                "087309 45471"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Polo Orchid Resort",
+              "location": "6PMM+GQ Cherrapunjee, Meghalaya",
+              "contacts": [
+                "087947 01637"
+              ],
+              "rooms": [{
+                  "type": "multiple",
+                  "cost": 19199
+                },
+                {
+                  "type": "multiple",
+                  "cost": 20223
+                }
+              ]
+            },
+            {
+              "name": "Kutmadan Resort",
+              "location": "6QX4+33 Cherrapunjee, Meghalaya",
+              "contacts": [
+                "087309 45471"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Cherrapunjee Holiday Resort",
+              "location": "6M97+Q4 Cherrapunjee, Meghalaya",
+              "contacts": [
+                "087948 03833"
+              ],
+              "rooms": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "places": [{
+        "name": "Cherrapunjee",
+        "attractions": [{
+            "name": "Double Decker Living Root Bridge",
+            "location": "7M2C+GQ Mawjyndem, Meghalaya",
+            "description": "There are nearly 3600 steps to reach the place. The steps are very steep at most of the places. Cross two bridges and the scenic beauty is excellent. Good trekking / walking shoes will be helpful. In between small shops are available and water bottles, lemon water, chips etc. could be purchased."
+          },
+          {
+            "name": "Noh Kali Kai Waterfall",
+            "location": "7MGP+7J Cherrapunjee, Meghalaya",
+            "description": "Nohkalikai Falls is the tallest plunge waterfall in India. Its height is 1115ft. The waterfall is located near Cherrapunji, one of the wettest places on Earth."
+          },
+          {
+            "name": "Nohsngithiang Falls (Seven Sisters Falls)",
+            "location": "6PVV+2F Cherrapunjee, Meghalaya",
+            "description": "Nohsngithiang Falls (also known as the Seven Sisters Waterfalls or Mawsmai Falls) is a seven-segmented waterfall located 1km (0.62mi) south of Mawsmai village in East Khasi Hills district in the Indian state of Meghalaya. The water falls from a height of 315m (1,033ft) and has an average width of 70m (230ft), making it one of the tallest waterfalls in India."
+          },
+          {
+            "name": "Rainbow Falls",
+            "location": "7M8G+XV Cherrapunjee, Meghalaya",
+            "description": "The trek starts with a walk in the jungle but gradually ascends into steep rocky terrain with slippery stairs, there are couple of patches where few steps are 2ft high. There is a metal bridge and another root bridge during the trek which are quite exciting with stream flowing beneath yourft. There are 2 pools to take plunge in the fall, one is 10 minutes before the fall which is bigger and better to take a bath. Another pool is right where the fall touches the ground which is smaller and risky also. The risk factor of taking a bath entirely depends the month of your visit, the fall would be too strong to take a bath during monsoons or when it rains heavily in the preceding night."
+          },
+          {
+            "name": "Mawsmai Caves",
+            "location": "6PVF+RJ Cherrapunjee, Meghalaya",
+            "description": "There are two caves here. One is recently found and one is old. Both of them worth a visit. They are in almost their natural state and still well lit. It was an adventure for children and they enjoyed it very much. One caution though: people who have spine, knee or hip problem or are physically unfit should not go through it. Rates are ₹ 20/- per person and photography charges are ₹ 20/- per camera."
+          },
+          {
+            "name": "Night Stay at Cherrapunjee",
+            "location": "",
+            "description": ""
+          }
+        ],
+        "stays": [{
+            "name": "Jiva Resort",
+            "location": "7P6X+92 Cherrapunjee, Meghalaya",
+            "contacts": [
+              "070851 77777"
+            ],
+            "rooms": []
+          },
+          {
+            "name": "Saimika Resort",
+            "location": "7PQ3+5H Cherrapunjee, Meghalaya",
+            "contacts": [
+              "098622 21718"
+            ],
+            "rooms": [{
+              "type": "multiple",
+              "cost": 3240
+            }]
+          },
+          {
+            "name": "Cafe Cherrapunjee",
+            "location": "CQHR+RR Mawjrong, Meghalaya",
+            "contacts": [
+              "087309 45471"
+            ],
+            "rooms": []
+          },
+          {
+            "name": "Polo Orchid Resort",
+            "location": "6PMM+GQ Cherrapunjee, Meghalaya",
+            "contacts": [
+              "087947 01637"
+            ],
+            "rooms": [{
+                "type": "multiple",
+                "cost": 19199
+              },
+              {
+                "type": "multiple",
+                "cost": 20223
+              }
+            ]
+          },
+          {
+            "name": "Kutmadan Resort",
+            "location": "6QX4+33 Cherrapunjee, Meghalaya",
+            "contacts": [
+              "087309 45471"
+            ],
+            "rooms": []
+          },
+          {
+            "name": "Cherrapunjee Holiday Resort",
+            "location": "6M97+Q4 Cherrapunjee, Meghalaya",
+            "contacts": [
+              "087948 03833"
+            ],
+            "rooms": []
+          }
+        ]
+      }]
+    },
+    {
+      "places": [{
+          "name": "Cherrapunjee",
+          "attractions": [{
+            "name": "Leave for Mawsynram",
+            "location": "Cherrapunjee to Mawsynram",
+            "description": "Approximately 3h required to travel about 90km\nOne halt at Khasi village would require 6h to reach Mawsynram"
+          }],
+          "stays": [{
+              "name": "Jiva Resort",
+              "location": "7P6X+92 Cherrapunjee, Meghalaya",
+              "contacts": [
+                "070851 77777"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Saimika Resort",
+              "location": "7PQ3+5H Cherrapunjee, Meghalaya",
+              "contacts": [
+                "098622 21718"
+              ],
+              "rooms": [{
+                "type": "multiple",
+                "cost": 3240
+              }]
+            },
+            {
+              "name": "Cafe Cherrapunjee",
+              "location": "CQHR+RR Mawjrong, Meghalaya",
+              "contacts": [
+                "087309 45471"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Polo Orchid Resort",
+              "location": "6PMM+GQ Cherrapunjee, Meghalaya",
+              "contacts": [
+                "087947 01637"
+              ],
+              "rooms": [{
+                  "type": "multiple",
+                  "cost": 19199
+                },
+                {
+                  "type": "multiple",
+                  "cost": 20223
+                }
+              ]
+            },
+            {
+              "name": "Kutmadan Resort",
+              "location": "6QX4+33 Cherrapunjee, Meghalaya",
+              "contacts": [
+                "087309 45471"
+              ],
+              "rooms": []
+            },
+            {
+              "name": "Cherrapunjee Holiday Resort",
+              "location": "6M97+Q4 Cherrapunjee, Meghalaya",
+              "contacts": [
+                "087948 03833"
+              ],
+              "rooms": []
+            }
+          ]
+        },
+        {
+          "name": "Khasi Village",
+          "attractions": [{
+            "name": "Local Visit on the way to Mawsynram",
+            "location": "CPXX+87 Synrang Kaban, Meghalaya",
+            "description": "The Khasi people, endonym: Ki Khun U Hynñiewtrep (\"Children of the Seven Huts\"), are an indigenous ethnic group of Meghalaya in north-eastern India, with a significant population in the bordering state of Assam, and in certain parts of Bangladesh. The Khasi people are the native people of Meghalaya and are the largest ethnic group in the state. Their language, Khasi, is categorised as the northernmost Austroasiatic language. Primarily an oral language, they had no script of their own, they used the Bengali script until the arrival of the Welsh missionaries. Continue trip for Mawsynram."
+          }],
+          "stays": []
+        },
+        {
+          "name": "Mawsynram",
+          "attractions": [{
+            "name": "Night Stay at Mawsynram",
+            "location": "",
+            "description": ""
+          }],
+          "stays": []
+        }
+      ]
+    },
+    {
+      "places": [{
+          "name": "Mawsynram",
+          "attractions": [{
+              "name": "Village Tour",
+              "location": "7HXJ+GH Mawsynram, Meghalaya",
+              "description": "Mawsynram is a village in the East Khasi Hills district of Meghalaya state in north eastern India, 65 kilometres from Shillong. Mawsynram receives the highest rainfall in India."
+            },
+            {
+              "name": "Leave for Airport",
+              "location": "Mawsynram to Guwahati",
+              "description": "Approximately 5h required to travel about 180km\nOne halt at Umaim Lake would require 8h to reach Guwahati Airport"
+            }
+          ],
+          "stays": []
+        },
+        {
+          "name": "Umaim Lake",
+          "attractions": [{
+            "name": "Umaim Lake Viewpoint",
+            "location": "MV2V+FJ Shillong, Meghalaya",
+            "description": "Umiam Lake (commonly known as Barapani Lake) is a reservoir in the hills 15km (9.3mi) north of Shillong in the state of Meghalaya, India. It was created by damming the Umiam River in the early 1960s. The principal catchment area of the lake and dam is spread over 220 square km."
+          }],
+          "stays": []
+        },
+        {
+          "name": "Guwahati",
+          "attractions": [{
+              "name": "Arrive at Airport",
+              "location": "",
+              "description": ""
+            },
+            {
+              "name": "Leave for Mumbai",
+              "location": "",
+              "description": ""
+            }
+          ],
+          "stays": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+div.home-component-holder {
+  height: 100vh;
+  justify-content: space-between;
+}
+
+div.content-holder {
+  flex-grow: 1;
+}
