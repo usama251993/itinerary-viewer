@@ -17,8 +17,8 @@
           "name": "Bomdila",
           "attractions": [{
             "name": "Night stay at Bomdila",
-            "location": "",
-            "description": ""
+            "location": "Anu Homestay",
+            "description": "Advance of ₹2000 paid"
           }],
           "stays": [{
             "name": "Anu Homestay",
@@ -27,8 +27,8 @@
               "087298 95222"
             ],
             "rooms": [{
-              "type": "double",
-              "cost": 1500
+              "type": "perhead",
+              "cost": 500
             }]
           }]
         }
@@ -55,8 +55,8 @@
               "087298 95222"
             ],
             "rooms": [{
-              "type": "multiple",
-              "cost": 1500
+              "type": "perhead",
+              "cost": 500
             }]
           }]
         },
@@ -64,137 +64,20 @@
           "name": "Tawang",
           "attractions": [{
             "name": "Night Stay at Tawang",
-            "location": "",
-            "description": ""
+            "location": "Mandrel Guest House",
+            "description": "Advance of ₹3000 paid"
           }],
           "stays": [{
-              "name": "Circuit House",
-              "location": "HVWC+JV Tawang, Arunachal Pradesh",
-              "contacts": [
-                "094360 97999"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "The Shangri-La Serene",
-              "location": "HVR7+QW Tawang, Arunachal Pradesh",
-              "contacts": [
-                ""
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Hotel Tawang Holiday",
-              "location": "HVW9+3P Tawang, Arunachal Pradesh",
-              "contacts": [
-                "087945 54003"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 2184
-                },
-                {
-                  "type": "double",
-                  "cost": 4180
-                }
-              ]
-            },
-            {
-              "name": "Vamoosetrail Tawang (1)",
-              "location": "HVP5+M3 Tawang",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 8260
-              }]
-            },
-            {
-              "name": "Vamoosetrail Tawang (2)",
-              "location": "HVVC+V3 Tawang",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 4032
-                },
-                {
-                  "type": "multiple",
-                  "cost": 6372
-                },
-                {
-                  "type": "multiple",
-                  "cost": 8260
-                }
-              ]
-            },
-            {
-              "name": "Vamoosetrail Tawang (4)",
-              "location": "HVR8+32 Tawang",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 4032
-                },
-                {
-                  "type": "multiple",
-                  "cost": 4480
-                },
-                {
-                  "type": "multiple",
-                  "cost": 5900
-                }
-              ]
-            },
-            {
-              "name": "Vamoosetrail Tawang (5)",
-              "location": "HVQ5+39 Tawang",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 5376
-              }]
-            },
-            {
-              "name": "Vamoosetrail Tawang (6)",
-              "location": "HVR5+5C Tawang",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 7080
-              }]
-            },
-            {
-              "name": "Vamoosetrail Tawang (7)",
-              "location": "HVR8+28 Tawang",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 4536
-              }]
-            },
-            {
-              "name": "Treebo Trip Yangsel",
-              "location": "HVQ7+RP Tawang, Arunachal Pradesh",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 8732
-              }]
-            }
-          ]
+            "name": "Mandrel Guest House",
+            "location": "HVR5+HR Tawang, Arunachal Pradesh",
+            "contacts": [
+              "087298 93322"
+            ],
+            "rooms": [{
+              "type": "perhead",
+              "cost": 500
+            }]
+          }]
         }
       ]
     },
@@ -248,133 +131,16 @@
           }
         ],
         "stays": [{
-            "name": "Circuit House",
-            "location": "HVWC+JV Tawang, Arunachal Pradesh",
-            "contacts": [
-              "094360 97999"
-            ],
-            "rooms": []
-          },
-          {
-            "name": "The Shangri-La Serene",
-            "location": "HVR7+QW Tawang, Arunachal Pradesh",
-            "contacts": [
-              ""
-            ],
-            "rooms": []
-          },
-          {
-            "name": "Hotel Tawang Holiday",
-            "location": "HVW9+3P Tawang, Arunachal Pradesh",
-            "contacts": [
-              "087945 54003"
-            ],
-            "rooms": [{
-                "type": "double",
-                "cost": 2184
-              },
-              {
-                "type": "double",
-                "cost": 4180
-              }
-            ]
-          },
-          {
-            "name": "Vamoosetrail Tawang (1)",
-            "location": "HVP5+M3 Tawang",
-            "contacts": [
-              ""
-            ],
-            "rooms": [{
-              "type": "double",
-              "cost": 8260
-            }]
-          },
-          {
-            "name": "Vamoosetrail Tawang (2)",
-            "location": "HVVC+V3 Tawang",
-            "contacts": [
-              ""
-            ],
-            "rooms": [{
-                "type": "double",
-                "cost": 4032
-              },
-              {
-                "type": "multiple",
-                "cost": 6372
-              },
-              {
-                "type": "multiple",
-                "cost": 8260
-              }
-            ]
-          },
-          {
-            "name": "Vamoosetrail Tawang (4)",
-            "location": "HVR8+32 Tawang",
-            "contacts": [
-              ""
-            ],
-            "rooms": [{
-                "type": "double",
-                "cost": 4032
-              },
-              {
-                "type": "multiple",
-                "cost": 4480
-              },
-              {
-                "type": "multiple",
-                "cost": 5900
-              }
-            ]
-          },
-          {
-            "name": "Vamoosetrail Tawang (5)",
-            "location": "HVQ5+39 Tawang",
-            "contacts": [
-              ""
-            ],
-            "rooms": [{
-              "type": "double",
-              "cost": 5376
-            }]
-          },
-          {
-            "name": "Vamoosetrail Tawang (6)",
-            "location": "HVR5+5C Tawang",
-            "contacts": [
-              ""
-            ],
-            "rooms": [{
-              "type": "double",
-              "cost": 7080
-            }]
-          },
-          {
-            "name": "Vamoosetrail Tawang (7)",
-            "location": "HVR8+28 Tawang",
-            "contacts": [
-              ""
-            ],
-            "rooms": [{
-              "type": "double",
-              "cost": 4536
-            }]
-          },
-          {
-            "name": "Treebo Trip Yangsel",
-            "location": "HVQ7+RP Tawang, Arunachal Pradesh",
-            "contacts": [
-              ""
-            ],
-            "rooms": [{
-              "type": "double",
-              "cost": 8732
-            }]
-          }
-        ]
+          "name": "Mandrel Guest House",
+          "location": "HVR5+HR Tawang, Arunachal Pradesh",
+          "contacts": [
+            "087298 93322"
+          ],
+          "rooms": [{
+            "type": "perhead",
+            "cost": 500
+          }]
+        }]
       }]
     },
     {
@@ -386,181 +152,35 @@
             "description": "Approximately 5h required to travel about 150km"
           }],
           "stays": [{
-              "name": "Circuit House",
-              "location": "HVWC+JV Tawang, Arunachal Pradesh",
-              "contacts": [
-                "094360 97999"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "The Shangri-La Serene",
-              "location": "HVR7+QW Tawang, Arunachal Pradesh",
-              "contacts": [
-                ""
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Hotel Tawang Holiday",
-              "location": "HVW9+3P Tawang, Arunachal Pradesh",
-              "contacts": [
-                "087945 54003"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 2184
-                },
-                {
-                  "type": "double",
-                  "cost": 4180
-                }
-              ]
-            },
-            {
-              "name": "Vamoosetrail Tawang (1)",
-              "location": "HVP5+M3 Tawang",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 8260
-              }]
-            },
-            {
-              "name": "Vamoosetrail Tawang (2)",
-              "location": "HVVC+V3 Tawang",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 4032
-                },
-                {
-                  "type": "multiple",
-                  "cost": 6372
-                },
-                {
-                  "type": "multiple",
-                  "cost": 8260
-                }
-              ]
-            },
-            {
-              "name": "Vamoosetrail Tawang (4)",
-              "location": "HVR8+32 Tawang",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 4032
-                },
-                {
-                  "type": "multiple",
-                  "cost": 4480
-                },
-                {
-                  "type": "multiple",
-                  "cost": 5900
-                }
-              ]
-            },
-            {
-              "name": "Vamoosetrail Tawang (5)",
-              "location": "HVQ5+39 Tawang",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 5376
-              }]
-            },
-            {
-              "name": "Vamoosetrail Tawang (6)",
-              "location": "HVR5+5C Tawang",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 7080
-              }]
-            },
-            {
-              "name": "Vamoosetrail Tawang (7)",
-              "location": "HVR8+28 Tawang",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 4536
-              }]
-            },
-            {
-              "name": "Treebo Trip Yangsel",
-              "location": "HVQ7+RP Tawang, Arunachal Pradesh",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 8732
-              }]
-            }
-          ]
+            "name": "Mandrel Guest House",
+            "location": "HVR5+HR Tawang, Arunachal Pradesh",
+            "contacts": [
+              "087298 93322"
+            ],
+            "rooms": [{
+              "type": "perhead",
+              "cost": 500
+            }]
+          }]
         },
         {
           "name": "Dirang",
           "attractions": [{
             "name": "Night Stay at Dirang",
-            "location": "",
-            "description": ""
+            "location": "Dirang Boutique Cottages",
+            "description": "Total payment to be done in cash after the stay"
           }],
           "stays": [{
-              "name": "Hotel Samdup Khang",
-              "location": "963V+PW Dirang, Arunachal Pradesh",
-              "contacts": [
-                "094028 69201"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 1646
-              }]
-            },
-            {
-              "name": "Hotel Pemaling",
-              "location": "9722+P2 Dirang, Arunachal Pradesh",
-              "contacts": [
-                "082589 19962"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 1538
-                },
-                {
-                  "type": "double",
-                  "cost": 2950
-                },
-                {
-                  "type": "multiple",
-                  "cost": 4425
-                }
-              ]
-            },
-            {
-              "name": "Awoo Resort",
-              "location": "962X+W2 Dirang, Arunachal Pradesh",
-              "contacts": [
-                "098629 41109"
-              ],
-              "rooms": []
-            }
-          ]
+            "name": "Dirang Boutique Cottages",
+            "location": "87RG+PP Dirang Village, Arunachal Pradesh",
+            "contacts": [
+              "098622 90952"
+            ],
+            "rooms": [{
+              "type": "perhead",
+              "cost": 500
+            }]
+          }]
         }
       ]
     },
@@ -594,110 +214,35 @@
             }
           ],
           "stays": [{
-              "name": "Hotel Samdup Khang",
-              "location": "963V+PW Dirang, Arunachal Pradesh",
-              "contacts": [
-                "094028 69201"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 1646
-              }]
-            },
-            {
-              "name": "Hotel Pemaling",
-              "location": "9722+P2 Dirang, Arunachal Pradesh",
-              "contacts": [
-                "082589 19962"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 1538
-                },
-                {
-                  "type": "double",
-                  "cost": 2950
-                },
-                {
-                  "type": "multiple",
-                  "cost": 4425
-                }
-              ]
-            },
-            {
-              "name": "Awoo Resort",
-              "location": "962X+W2 Dirang, Arunachal Pradesh",
-              "contacts": [
-                "098629 41109"
-              ],
-              "rooms": []
-            }
-          ]
+            "name": "Dirang Boutique Cottages",
+            "location": "87RG+PP Dirang Village, Arunachal Pradesh",
+            "contacts": [
+              "098622 90952"
+            ],
+            "rooms": [{
+              "type": "perhead",
+              "cost": 500
+            }]
+          }]
         },
         {
           "name": "Bhalukpong",
           "attractions": [{
             "name": "Night Stay at Bhalukpong",
-            "location": "",
-            "description": ""
+            "location": "Nameri Baligara Camp",
+            "description": "Advance of ₹2000 paid"
           }],
           "stays": [{
-              "name": "Prashanti Lodge",
-              "location": "2J7W+3V Bhalukpong, Arunachal Pradesh",
-              "contacts": [
-                "099570 81781"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Hotel Solu",
-              "location": "2J6W+6F Bhalukpong, Arunachal Pradesh",
-              "contacts": [
-                "+(91)-3780-234955"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 2016
-                },
-                {
-                  "type": "double",
-                  "cost": 3186
-                }
-              ]
-            },
-            {
-              "name": "Nameri Eco Camp",
-              "location": "WRFG+PX Potasali, Assam",
-              "contacts": [
-                "03714 292 644"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Hotel Kameng Inn",
-              "location": "2J8Q+5Q Bhalukpong, Arunachal Pradesh",
-              "contacts": [
-                "03782 234 865"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Waii International Hotel",
-              "location": "2J6V+VR Bhalukpong, Arunachal Pradesh",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 3500
-                },
-                {
-                  "type": "double",
-                  "cost": 5000
-                }
-              ]
-            }
-          ]
+            "name": "Nameri Baligara Camp",
+            "location": "WRG9+G7 Chariduar, Assam",
+            "contacts": [
+              "096782 14295"
+            ],
+            "rooms": [{
+              "type": "perhead",
+              "cost": 500
+            }]
+          }]
         }
       ]
     },
@@ -731,62 +276,16 @@
             }
           ],
           "stays": [{
-              "name": "Prashanti Lodge",
-              "location": "2J7W+3V Bhalukpong, Arunachal Pradesh",
-              "contacts": [
-                "099570 81781"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Hotel Solu",
-              "location": "2J6W+6F Bhalukpong, Arunachal Pradesh",
-              "contacts": [
-                "+(91)-3780-234955"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 2016
-                },
-                {
-                  "type": "double",
-                  "cost": 3186
-                }
-              ]
-            },
-            {
-              "name": "Nameri Eco Camp",
-              "location": "WRFG+PX Potasali, Assam",
-              "contacts": [
-                "03714 292 644"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Hotel Kameng Inn",
-              "location": "2J8Q+5Q Bhalukpong, Arunachal Pradesh",
-              "contacts": [
-                "03782 234 865"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Waii International Hotel",
-              "location": "2J6V+VR Bhalukpong, Arunachal Pradesh",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 3500
-                },
-                {
-                  "type": "double",
-                  "cost": 5000
-                }
-              ]
-            }
-          ]
+            "name": "Nameri Baligara Camp",
+            "location": "WRG9+G7 Chariduar, Assam",
+            "contacts": [
+              "096782 14295"
+            ],
+            "rooms": [{
+              "type": "perhead",
+              "cost": 500
+            }]
+          }]
         },
         {
           "name": "Itanagar",

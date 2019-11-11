@@ -1,5 +1,24 @@
-span.mat-display-1 {
-  font-family: "Segoe UI", "Calibri", sans-serif;
-  margin: 0rem;
-  cursor: pointer;
+// span.mat-display-1 {
+//   font-family: "Segoe UI", "Calibri", sans-serif;
+//   margin: 0rem;
+//   cursor: pointer;
+// }
+mat-toolbar {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  mat-toolbar-row  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: unset;
+
+    span {
+      font-size: 2rem;
+      cursor: pointer;
+    }
+  }
 }
