@@ -28,6 +28,9 @@ export class IaViewTripComponent implements OnInit {
     { optionValue: "multiple", optionText: "Multiple Occupancy" },
     { optionValue: "dormitory", optionText: "Dormitory" },
     { optionValue: "perhead", optionText: "Cost Per Person" },
+    { optionValue: "advance", optionText: "Advance Paid" },
+    { optionValue: "total", optionText: "Total Amount" },
+    { optionValue: "balance", optionText: "Balance Amount" },
     { optionValue: "others", optionText: "Others" }
   ];
 

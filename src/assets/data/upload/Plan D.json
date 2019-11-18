@@ -27,9 +27,22 @@
               "087298 95222"
             ],
             "rooms": [{
-              "type": "perhead",
-              "cost": 500
-            }]
+                "type": "total",
+                "cost": 4000
+              },
+              {
+                "type": "perhead",
+                "cost": 500
+              },
+              {
+                "type": "advance",
+                "cost": 2000
+              },
+              {
+                "type": "balance",
+                "cost": 2000
+              }
+            ]
           }]
         }
       ]
@@ -55,9 +68,22 @@
               "087298 95222"
             ],
             "rooms": [{
-              "type": "perhead",
-              "cost": 500
-            }]
+                "type": "total",
+                "cost": 4000
+              },
+              {
+                "type": "perhead",
+                "cost": 500
+              },
+              {
+                "type": "advance",
+                "cost": 2000
+              },
+              {
+                "type": "balance",
+                "cost": 2000
+              }
+            ]
           }]
         },
         {
@@ -74,9 +100,22 @@
               "087298 93322"
             ],
             "rooms": [{
-              "type": "perhead",
-              "cost": 500
-            }]
+                "type": "total",
+                "cost": 12000
+              },
+              {
+                "type": "perhead",
+                "cost": 1500
+              },
+              {
+                "type": "advance",
+                "cost": 3000
+              },
+              {
+                "type": "balance",
+                "cost": 9000
+              }
+            ]
           }]
         }
       ]
@@ -107,9 +146,22 @@
             "087298 93322"
           ],
           "rooms": [{
-            "type": "perhead",
-            "cost": 500
-          }]
+              "type": "total",
+              "cost": 12000
+            },
+            {
+              "type": "perhead",
+              "cost": 1500
+            },
+            {
+              "type": "advance",
+              "cost": 3000
+            },
+            {
+              "type": "balance",
+              "cost": 9000
+            }
+          ]
         }]
       }]
     },
@@ -159,9 +211,22 @@
             "087298 93322"
           ],
           "rooms": [{
-            "type": "perhead",
-            "cost": 500
-          }]
+              "type": "total",
+              "cost": 12000
+            },
+            {
+              "type": "perhead",
+              "cost": 1500
+            },
+            {
+              "type": "advance",
+              "cost": 3000
+            },
+            {
+              "type": "balance",
+              "cost": 9000
+            }
+          ]
         }]
       }]
     },
@@ -180,19 +245,55 @@
               "087298 93322"
             ],
             "rooms": [{
-              "type": "perhead",
-              "cost": 500
-            }]
+                "type": "total",
+                "cost": 12000
+              },
+              {
+                "type": "perhead",
+                "cost": 1500
+              },
+              {
+                "type": "advance",
+                "cost": 3000
+              },
+              {
+                "type": "balance",
+                "cost": 9000
+              }
+            ]
           }]
         },
         {
           "name": "Dirang",
           "attractions": [{
             "name": "Night Stay at Dirang",
-            "location": "",
-            "description": ""
+            "location": "Sangyela Lodge",
+            "description": "No Advance Paid"
           }],
-          "stays": []
+          "stays": [{
+            "name": "Sangyela Lodge",
+            "location": "965R+J9 Dirang, Arunachal Pradesh",
+            "contacts": [
+              "087945 10687"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 3000
+              },
+              {
+                "type": "perhead",
+                "cost": 375
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 3000
+              }
+            ]
+          }]
         }
       ]
     },
@@ -225,7 +326,30 @@
               "description": "Approximately 5h required to travel about 150km"
             }
           ],
-          "stays": []
+          "stays": [{
+            "name": "Sangyela Lodge",
+            "location": "965R+J9 Dirang, Arunachal Pradesh",
+            "contacts": [
+              "087945 10687"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 3000
+              },
+              {
+                "type": "perhead",
+                "cost": 375
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 3000
+              }
+            ]
+          }]
         },
         {
           "name": "Bhalukpong",
@@ -241,9 +365,22 @@
               "096782 14295"
             ],
             "rooms": [{
-              "type": "perhead",
-              "cost": 500
-            }]
+                "type": "total",
+                "cost": 4000
+              },
+              {
+                "type": "perhead",
+                "cost": 500
+              },
+              {
+                "type": "advance",
+                "cost": 2000
+              },
+              {
+                "type": "balance",
+                "cost": 2000
+              }
+            ]
           }]
         }
       ]
@@ -284,9 +421,22 @@
               "096782 14295"
             ],
             "rooms": [{
-              "type": "perhead",
-              "cost": 500
-            }]
+                "type": "total",
+                "cost": 4000
+              },
+              {
+                "type": "perhead",
+                "cost": 500
+              },
+              {
+                "type": "advance",
+                "cost": 2000
+              },
+              {
+                "type": "balance",
+                "cost": 2000
+              }
+            ]
           }]
         },
         {
@@ -642,49 +792,37 @@
               "name": "Mawshun Caves",
               "location": "6XJ4+PM Mynrieng, Meghalaya",
               "description": "The Cave lies around 680m in an immediate line east of the congregation at Lelad however 100m lower. It is a dendritic ace stream give in that goes about as an authority for a few channels and depletes the zone east of the town Lelad. The uninviting passageway. In the middle of stones, opens to a 5m pot that drops into a fine, clean-washed stream section, which again prompts a 24m profound pitch. The stream section gets bigger, both upstream and downstream, with the downstream entry estimating 12m by 10m."
+            },
+            {
+              "name": "Night Stay at Shnongpdeng",
+              "location": "Halatang Tourist Homestay",
+              "description": "Advance of ₹1000 paid"
             }
           ],
           "stays": [{
-              "name": "Shnongpdeng Camping",
-              "location": "6245+PH Shnongpdeng, Meghalaya",
-              "contacts": [
-                "070055 03922"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Kenny/pacify Camping Tents",
-              "location": "6245+VR Shnongpdeng, Meghalaya",
-              "contacts": [
-                "088370 58317"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Riverside Camping Tent",
-              "location": "6245+W3 Shnongpdeng, Meghalaya",
-              "contacts": [
-                "088370 58317"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Marvel’s Camps",
-              "location": "6254+FP Shnongpdeng, Meghalaya",
-              "contacts": [
-                "070858 71825"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Gawooh Adventure",
-              "location": "6244+M7 Shnongpdeng, Meghalaya",
-              "contacts": [
-                "087875 68561"
-              ],
-              "rooms": []
-            }
-          ]
+            "name": "Halatang Tourist Homestay",
+            "location": "6256+45 Shnongpdeng, Meghalaya",
+            "contacts": [
+              "087310 96536"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 3200
+              },
+              {
+                "type": "perhead",
+                "cost": 400
+              },
+              {
+                "type": "advance",
+                "cost": 1000
+              },
+              {
+                "type": "balance",
+                "cost": 2200
+              }
+            ]
+          }]
         }
       ]
     },
@@ -697,46 +835,29 @@
             "description": "Approximately 2h required to travel about 45km"
           }],
           "stays": [{
-              "name": "Shnongpdeng Camping",
-              "location": "6245+PH Shnongpdeng, Meghalaya",
-              "contacts": [
-                "070055 03922"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Kenny/pacify Camping Tents",
-              "location": "6245+VR Shnongpdeng, Meghalaya",
-              "contacts": [
-                "088370 58317"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Riverside Camping Tent",
-              "location": "6245+W3 Shnongpdeng, Meghalaya",
-              "contacts": [
-                "088370 58317"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Marvel’s Camps",
-              "location": "6254+FP Shnongpdeng, Meghalaya",
-              "contacts": [
-                "070858 71825"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Gawooh Adventure",
-              "location": "6244+M7 Shnongpdeng, Meghalaya",
-              "contacts": [
-                "087875 68561"
-              ],
-              "rooms": []
-            }
-          ]
+            "name": "Halatang Tourist Homestay",
+            "location": "6256+45 Shnongpdeng, Meghalaya",
+            "contacts": [
+              "087310 96536"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 3200
+              },
+              {
+                "type": "perhead",
+                "cost": 400
+              },
+              {
+                "type": "advance",
+                "cost": 1000
+              },
+              {
+                "type": "balance",
+                "cost": 2200
+              }
+            ]
+          }]
         },
         {
           "name": "Mawlynnong",

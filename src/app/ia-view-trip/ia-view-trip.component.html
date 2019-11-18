@@ -171,7 +171,7 @@
                             <mat-card-subtitle>
                               <div class="trip-entity-detail-holder">
                                 <div class="trip-entity-address-holder"
-                                  *ngIf="singleStay.address !== ''; else noStayAddress">
+                                  *ngIf="singleStay.location !== ''; else noStayAddress">
                                   <div class="trip-entity-icon-holder">
                                     <mat-icon>place</mat-icon>
                                   </div>
@@ -229,7 +229,7 @@
                                 <mat-table [dataSource]="singleStay.rooms">
                                   <ng-container matColumnDef="type">
                                     <mat-header-cell *matHeaderCellDef>
-                                      <span>Room Type</span>
+                                      <span>Pricing Paramters </span>
                                     </mat-header-cell>
                                     <mat-cell *matCellDef="let cellDef">
                                       <span>{{ roomValues[cellDef.type] }}</span>
