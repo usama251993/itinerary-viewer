@@ -3,7 +3,11 @@ div {
   flex-direction: column;
 }
 div.view-container {
+  min-height: 100vh;
+  
   mat-tab-group {
+    flex: 1;
+    
     /deep/ {
       div.mat-tab-label {
         height: unset;
@@ -106,12 +110,5 @@ div.view-container {
 }
 
 div.button-holder {
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  z-index: 1;
-
-  div.button {
-    margin: 0.5rem;
-  }
+  padding: 0.5rem;
 }

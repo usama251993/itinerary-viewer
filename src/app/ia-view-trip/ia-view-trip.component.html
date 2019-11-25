@@ -240,7 +240,7 @@
                                       <span>Cost</span>
                                     </mat-header-cell>
                                     <mat-cell *matCellDef="let cellDef">
-                                      <span>₹&nbsp;{{ cellDef.cost }}</span>
+                                      <span>₹&nbsp;{{ cellDef.cost }}&nbsp;/-</span>
                                     </mat-cell>
                                   </ng-container>
                                   <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
@@ -263,5 +263,11 @@
     </mat-tab>
 
   </mat-tab-group>
+
+  <div class="button-holder">
+    <div class="button">
+      <button mat-stroked-button color="primary">View Trip Expenses</button>
+    </div>
+  </div>
 
 </div>

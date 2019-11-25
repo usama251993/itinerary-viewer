@@ -1203,10 +1203,33 @@
           "name": "Mawsynram",
           "attractions": [{
             "name": "Night Stay at Mawsynram",
-            "location": "",
-            "description": ""
+            "location": "Rit Mawksir Cafe And Lodge",
+            "description": "No Advance Paid"
           }],
-          "stays": []
+          "stays": [{
+            "name": "Rit Mawksir Cafe And Lodge",
+            "location": "7HPG+52 Māwsynrām, Meghalaya",
+            "contacts": [
+              "088370 15631"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 3000
+              },
+              {
+                "type": "perhead",
+                "cost": 375
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 3000
+              }
+            ]
+          }]
         }
       ]
     },
@@ -1224,7 +1247,30 @@
               "description": "Approximately 5h required to travel about 180km\nOne halt at Umaim Lake would require 8h to reach Guwahati Airport"
             }
           ],
-          "stays": []
+          "stays": [{
+            "name": "Rit Mawksir Cafe And Lodge",
+            "location": "7HPG+52 Māwsynrām, Meghalaya",
+            "contacts": [
+              "088370 15631"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 3000
+              },
+              {
+                "type": "perhead",
+                "cost": 375
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 3000
+              }
+            ]
+          }]
         },
         {
           "name": "Umaim Lake",
@@ -1257,5 +1303,25 @@
         }
       ]
     }
-  ]
+  ],
+  "expenses": {
+    "flights": {
+      "total": 0,
+      "advance": 0,
+      "balance": 0,
+      "perhead": 0
+    },
+    "hotels": {
+      "total": 0,
+      "advance": 0,
+      "balance": 0,
+      "perhead": 0
+    },
+    "transition": {
+      "total": 0,
+      "advance": 0,
+      "balance": 0,
+      "perhead": 0
+    }
+  }
 }

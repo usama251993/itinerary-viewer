@@ -18,7 +18,7 @@
           "attractions": [{
             "name": "Night stay at Bomdila",
             "location": "Anu Homestay",
-            "description": "Advance of ₹2000 paid"
+            "description": "Advance of ₹2000/- paid"
           }],
           "stays": [{
             "name": "Anu Homestay",
@@ -91,7 +91,7 @@
           "attractions": [{
             "name": "Night Stay at Tawang",
             "location": "Mandrel Guest House",
-            "description": "Advance of ₹3000 paid"
+            "description": "Advance of ₹3000/- paid"
           }],
           "stays": [{
             "name": "Mandrel Guest House",
@@ -166,7 +166,7 @@
           {
             "name": "Night Stay at Tawang",
             "location": "Mandrel Guest House",
-            "description": "Advance of ₹3000 paid"
+            "description": "Advance of ₹3000/- paid"
           }
         ],
         "stays": [{
@@ -321,7 +321,7 @@
           "attractions": [{
             "name": "Night Stay at Bhalukpong",
             "location": "Nameri Baligara Camp",
-            "description": "Advance of ₹2000 paid"
+            "description": "Advance of ₹2000/- paid"
           }],
           "stays": [{
             "name": "Nameri Baligara Camp",
@@ -854,83 +854,33 @@
           "name": "Majuli Island",
           "attractions": [{
             "name": "Night Stay at Majuli Island",
-            "location": "",
-            "description": ""
+            "location": "Shantikunj Bamboo Cottage",
+            "description": "No Advance Paid"
           }],
           "stays": [{
-              "name": "Risong Guest house",
-              "location": "X5M3+QF Natun Kulamora Chapori N.C., Assam",
-              "contacts": [
-                "095087 90587"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 900
-              }]
-            },
-            {
-              "name": "La Maison de Ananda",
-              "location": "X5M3+MJ Natun Kulamora Chapori N.C., Assam",
-              "contacts": [
-                "099571 86356"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 1600
-              }]
-            },
-            {
-              "name": "Dekasang Majuli",
-              "location": "X5R3+H5 Natun Kulamora Chapori N.C., Assam",
-              "contacts": [
-                "098547 15435"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Okegiga Homes",
-              "location": "X5R2+99 Majuli, Assam",
-              "contacts": [
-                "088223 90306"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 1344
-                },
-                {
-                  "type": "multiple",
-                  "cost": 1680
-                }
-              ]
-            },
-            {
-              "name": "Shanti kunj Bamboo cottage",
-              "location": "X49V+FF Garmur Satra, Assam",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 1792
-                },
-                {
-                  "type": "multiple",
-                  "cost": 2240
-                }
-              ]
-            },
-            {
-              "name": "Dulce Hogar Home Stay",
-              "location": "X567+7Q Doria Gaon, Assam",
-              "contacts": [
-                "091014 82880"
-              ],
-              "rooms": [{
-                "type": "multiple",
-                "cost": 1454
-              }]
-            }
-          ]
+            "name": "Shantikunj Bamboo Cottage",
+            "location": "262Q+6H Natun Pohardia, Assam",
+            "contacts": [
+              "098643 48113"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 2700
+              },
+              {
+                "type": "total",
+                "cost": 337.50
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 2700
+              }
+            ]
+          }]
         }
       ]
     },
@@ -964,79 +914,29 @@
             }
           ],
           "stays": [{
-              "name": "Risong Guest house",
-              "location": "X5M3+QF Natun Kulamora Chapori N.C., Assam",
-              "contacts": [
-                "095087 90587"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 900
-              }]
-            },
-            {
-              "name": "La Maison de Ananda",
-              "location": "X5M3+MJ Natun Kulamora Chapori N.C., Assam",
-              "contacts": [
-                "099571 86356"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 1600
-              }]
-            },
-            {
-              "name": "Dekasang Majuli",
-              "location": "X5R3+H5 Natun Kulamora Chapori N.C., Assam",
-              "contacts": [
-                "098547 15435"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Okegiga Homes",
-              "location": "X5R2+99 Majuli, Assam",
-              "contacts": [
-                "088223 90306"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 1344
-                },
-                {
-                  "type": "multiple",
-                  "cost": 1680
-                }
-              ]
-            },
-            {
-              "name": "Shanti kunj Bamboo cottage",
-              "location": "X49V+FF Garmur Satra, Assam",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 1792
-                },
-                {
-                  "type": "multiple",
-                  "cost": 2240
-                }
-              ]
-            },
-            {
-              "name": "Dulce Hogar Home Stay",
-              "location": "X567+7Q Doria Gaon, Assam",
-              "contacts": [
-                "091014 82880"
-              ],
-              "rooms": [{
-                "type": "multiple",
-                "cost": 1454
-              }]
-            }
-          ]
+            "name": "Shantikunj Bamboo Cottage",
+            "location": "262Q+6H Natun Pohardia, Assam",
+            "contacts": [
+              "098643 48113"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 2700
+              },
+              {
+                "type": "total",
+                "cost": 337.50
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 2700
+              }
+            ]
+          }]
         },
         {
           "name": "Jorhat",
@@ -1415,7 +1315,7 @@
             {
               "name": "Night Stay at Shnongpdeng",
               "location": "Halatang Tourist Homestay",
-              "description": "Advance of ₹1000 paid"
+              "description": "Advance of ₹1000/- paid"
             }
           ],
           "stays": [{
@@ -1751,10 +1651,33 @@
           "name": "Mawsynram",
           "attractions": [{
             "name": "Night Stay at Mawsynram",
-            "location": "",
-            "description": ""
+            "location": "Rit Mawksir Cafe And Lodge",
+            "description": "No Advance Paid"
           }],
-          "stays": []
+          "stays": [{
+            "name": "Rit Mawksir Cafe And Lodge",
+            "location": "7HPG+52 Māwsynrām, Meghalaya",
+            "contacts": [
+              "088370 15631"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 3000
+              },
+              {
+                "type": "perhead",
+                "cost": 375
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 3000
+              }
+            ]
+          }]
         }
       ]
     },
@@ -1772,7 +1695,30 @@
               "description": "Approximately 5h required to travel about 180km\nOne halt at Umaim Lake would require 8h to reach Guwahati Airport"
             }
           ],
-          "stays": []
+          "stays": [{
+            "name": "Rit Mawksir Cafe And Lodge",
+            "location": "7HPG+52 Māwsynrām, Meghalaya",
+            "contacts": [
+              "088370 15631"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 3000
+              },
+              {
+                "type": "perhead",
+                "cost": 375
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 3000
+              }
+            ]
+          }]
         },
         {
           "name": "Umaim Lake",
@@ -1800,5 +1746,25 @@
         }
       ]
     }
-  ]
+  ],
+  "expenses": {
+    "flights": {
+      "total": 0,
+      "advance": 0,
+      "balance": 0,
+      "perhead": 0
+    },
+    "hotels": {
+      "total": 0,
+      "advance": 0,
+      "balance": 0,
+      "perhead": 0
+    },
+    "transition": {
+      "total": 0,
+      "advance": 0,
+      "balance": 0,
+      "perhead": 0
+    }
+  }
 }
