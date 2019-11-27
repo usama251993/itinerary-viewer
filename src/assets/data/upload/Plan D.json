@@ -464,76 +464,33 @@
           "name": "Kaziranga",
           "attractions": [{
             "name": "Night Stay at Kaziranga",
-            "location": "",
-            "description": ""
+            "location": "Bora's Homestay",
+            "description": "Advance of ₹1000/- paid"
           }],
           "stays": [{
-              "name": "Diphlu River Lodge",
-              "location": "H7J9+CV Kuthari, Assam",
-              "contacts": [
-                "0361 266 7871",
-                "http://www.diphluriverlodge.com/"
-              ],
-              "rooms": [{
-                "type": "single",
-                "cost": 15400
-              }]
-            },
-            {
-              "name": "Camp Rhino Resort",
-              "location": "H5FP+5X Kakhin Deopani N.C., Assam",
-              "contacts": [
-                "094350 60372",
-                "http://camprhino.in/"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Landmark Woods",
-              "location": "H59P+3J Kakhin Deopani N.C., Assam",
-              "contacts": [
-                "070860 51677"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 5891
-              }]
-            },
-            {
-              "name": "Green Village Resort",
-              "location": "H29V+2V Deusur Sang, Assam",
-              "contacts": [
-                "070029 34945",
-                "https://greenvillageresort.business.site/"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 4050
-                },
-                {
-                  "type": "multiple",
-                  "cost": 5851
-                }
-              ]
-            },
-            {
-              "name": "Kaziranga Resort",
-              "location": "HCP6+HG Hatikhuli T.E., Assam",
-              "contacts": [
-                "070028 31410",
-                "http://www.kazirangaresort.com/"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 2575
-                },
-                {
-                  "type": "multiple",
-                  "cost": 3302
-                }
-              ]
-            }
-          ]
+            "name": "Bora's Homestay",
+            "location": "HCQ6+5R Hatikhuli T.E., Assam",
+            "contacts": [
+              "098649 48736"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 4200
+              },
+              {
+                "type": "perhead",
+                "cost": 525
+              },
+              {
+                "type": "advance",
+                "cost": 1000
+              },
+              {
+                "type": "balance",
+                "cost": 3200
+              }
+            ]
+          }]
         }
       ]
     },
@@ -546,127 +503,61 @@
             "description": "Approximately 5h required to travel about 180km"
           }],
           "stays": [{
-              "name": "Diphlu River Lodge",
-              "location": "H7J9+CV Kuthari, Assam",
-              "contacts": [
-                "0361 266 7871",
-                "http://www.diphluriverlodge.com/"
-              ],
-              "rooms": [{
-                "type": "single",
-                "cost": 15400
-              }]
-            },
-            {
-              "name": "Camp Rhino Resort",
-              "location": "H5FP+5X Kakhin Deopani N.C., Assam",
-              "contacts": [
-                "094350 60372",
-                "http://camprhino.in/"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Landmark Woods",
-              "location": "H59P+3J Kakhin Deopani N.C., Assam",
-              "contacts": [
-                "070860 51677"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 5891
-              }]
-            },
-            {
-              "name": "Green Village Resort",
-              "location": "H29V+2V Deusur Sang, Assam",
-              "contacts": [
-                "070029 34945",
-                "https://greenvillageresort.business.site/"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 4050
-                },
-                {
-                  "type": "multiple",
-                  "cost": 5851
-                }
-              ]
-            },
-            {
-              "name": "Kaziranga Resort",
-              "location": "HCP6+HG Hatikhuli T.E., Assam",
-              "contacts": [
-                "070028 31410",
-                "http://www.kazirangaresort.com/"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 2575
-                },
-                {
-                  "type": "multiple",
-                  "cost": 3302
-                }
-              ]
-            }
-          ]
+            "name": "Bora's Homestay",
+            "location": "HCQ6+5R Hatikhuli T.E., Assam",
+            "contacts": [
+              "098649 48736"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 4200
+              },
+              {
+                "type": "perhead",
+                "cost": 525
+              },
+              {
+                "type": "advance",
+                "cost": 1000
+              },
+              {
+                "type": "balance",
+                "cost": 3200
+              }
+            ]
+          }]
         },
         {
           "name": "Shillong",
           "attractions": [{
             "name": "Night Stay at Shillong",
-            "location": "",
-            "description": ""
+            "location": "Hotel Garden View Homestay",
+            "description": "No Advance Paid"
           }],
           "stays": [{
-              "name": "April Springs",
-              "location": "",
-              "contacts": [],
-              "rooms": []
-            },
-            {
-              "name": "Pine Brook Guest House",
-              "location": "HV7G+CV Shillong, Meghalaya",
-              "contacts": [
-                "094369 85858"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "The Homestead B&B",
-              "location": "HVCQ+FW Shillong, Meghalaya",
-              "contacts": [
-                "093665 45217"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Cafe Shillong B&B",
-              "location": "HV9Q+67 Lachumiere, Shillong, Meghalaya",
-              "contacts": [
-                "089740 66089"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 4538
-                },
-                {
-                  "type": "multiple",
-                  "cost": 5954
-                }
-              ]
-            },
-            {
-              "name": "Aiyana Guest House",
-              "location": "HWC7+RM Shillong, Meghalaya",
-              "contacts": [
-                "0364 253 7628"
-              ],
-              "rooms": []
-            }
-          ]
+            "name": "Hotel Garden View Homestay",
+            "location": "HV7F+JH Shillong, Meghalaya",
+            "contacts": [
+              "https://www.booking.com/hotel/in/garden-view-guest-house-shillong.html"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 8064
+              },
+              {
+                "type": "perhead",
+                "cost": 1008
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 8064
+              }
+            ]
+          }]
         }
       ]
     },
@@ -679,52 +570,29 @@
             "description": "Approximately 3h required to travel about 100km"
           }],
           "stays": [{
-              "name": "April Springs",
-              "location": "",
-              "contacts": [],
-              "rooms": []
-            },
-            {
-              "name": "Pine Brook Guest House",
-              "location": "HV7G+CV Shillong, Meghalaya",
-              "contacts": [
-                "094369 85858"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "The Homestead B&B",
-              "location": "HVCQ+FW Shillong, Meghalaya",
-              "contacts": [
-                "093665 45217"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Cafe Shillong B&B",
-              "location": "HV9Q+67 Lachumiere, Shillong, Meghalaya",
-              "contacts": [
-                "089740 66089"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 4538
-                },
-                {
-                  "type": "multiple",
-                  "cost": 5954
-                }
-              ]
-            },
-            {
-              "name": "Aiyana Guest House",
-              "location": "HWC7+RM Shillong, Meghalaya",
-              "contacts": [
-                "0364 253 7628"
-              ],
-              "rooms": []
-            }
-          ]
+            "name": "Hotel Garden View Homestay",
+            "location": "HV7F+JH Shillong, Meghalaya",
+            "contacts": [
+              "https://www.booking.com/hotel/in/garden-view-guest-house-shillong.html"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 8064
+              },
+              {
+                "type": "perhead",
+                "cost": 1008
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 8064
+              }
+            ]
+          }]
         },
         {
           "name": "Krang Shuri",
@@ -891,66 +759,7 @@
             "location": "",
             "description": ""
           }],
-          "stays": [{
-              "name": "Jiva Resort",
-              "location": "7P6X+92 Cherrapunjee, Meghalaya",
-              "contacts": [
-                "070851 77777"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Saimika Resort",
-              "location": "7PQ3+5H Cherrapunjee, Meghalaya",
-              "contacts": [
-                "098622 21718"
-              ],
-              "rooms": [{
-                "type": "multiple",
-                "cost": 3240
-              }]
-            },
-            {
-              "name": "Cafe Cherrapunjee",
-              "location": "CQHR+RR Mawjrong, Meghalaya",
-              "contacts": [
-                "087309 45471"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Polo Orchid Resort",
-              "location": "6PMM+GQ Cherrapunjee, Meghalaya",
-              "contacts": [
-                "087947 01637"
-              ],
-              "rooms": [{
-                  "type": "multiple",
-                  "cost": 19199
-                },
-                {
-                  "type": "multiple",
-                  "cost": 20223
-                }
-              ]
-            },
-            {
-              "name": "Kutmadan Resort",
-              "location": "6QX4+33 Cherrapunjee, Meghalaya",
-              "contacts": [
-                "087309 45471"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Cherrapunjee Holiday Resort",
-              "location": "6M97+Q4 Cherrapunjee, Meghalaya",
-              "contacts": [
-                "087948 03833"
-              ],
-              "rooms": []
-            }
-          ]
+          "stays": []
         }
       ]
     },
@@ -983,66 +792,7 @@
             "description": ""
           }
         ],
-        "stays": [{
-            "name": "Jiva Resort",
-            "location": "7P6X+92 Cherrapunjee, Meghalaya",
-            "contacts": [
-              "070851 77777"
-            ],
-            "rooms": []
-          },
-          {
-            "name": "Saimika Resort",
-            "location": "7PQ3+5H Cherrapunjee, Meghalaya",
-            "contacts": [
-              "098622 21718"
-            ],
-            "rooms": [{
-              "type": "multiple",
-              "cost": 3240
-            }]
-          },
-          {
-            "name": "Cafe Cherrapunjee",
-            "location": "CQHR+RR Mawjrong, Meghalaya",
-            "contacts": [
-              "087309 45471"
-            ],
-            "rooms": []
-          },
-          {
-            "name": "Polo Orchid Resort",
-            "location": "6PMM+GQ Cherrapunjee, Meghalaya",
-            "contacts": [
-              "087947 01637"
-            ],
-            "rooms": [{
-                "type": "multiple",
-                "cost": 19199
-              },
-              {
-                "type": "multiple",
-                "cost": 20223
-              }
-            ]
-          },
-          {
-            "name": "Kutmadan Resort",
-            "location": "6QX4+33 Cherrapunjee, Meghalaya",
-            "contacts": [
-              "087309 45471"
-            ],
-            "rooms": []
-          },
-          {
-            "name": "Cherrapunjee Holiday Resort",
-            "location": "6M97+Q4 Cherrapunjee, Meghalaya",
-            "contacts": [
-              "087948 03833"
-            ],
-            "rooms": []
-          }
-        ]
+        "stays": []
       }]
     },
     {
@@ -1059,66 +809,7 @@
             "description": ""
           }
         ],
-        "stays": [{
-            "name": "Jiva Resort",
-            "location": "7P6X+92 Cherrapunjee, Meghalaya",
-            "contacts": [
-              "070851 77777"
-            ],
-            "rooms": []
-          },
-          {
-            "name": "Saimika Resort",
-            "location": "7PQ3+5H Cherrapunjee, Meghalaya",
-            "contacts": [
-              "098622 21718"
-            ],
-            "rooms": [{
-              "type": "multiple",
-              "cost": 3240
-            }]
-          },
-          {
-            "name": "Cafe Cherrapunjee",
-            "location": "CQHR+RR Mawjrong, Meghalaya",
-            "contacts": [
-              "087309 45471"
-            ],
-            "rooms": []
-          },
-          {
-            "name": "Polo Orchid Resort",
-            "location": "6PMM+GQ Cherrapunjee, Meghalaya",
-            "contacts": [
-              "087947 01637"
-            ],
-            "rooms": [{
-                "type": "multiple",
-                "cost": 19199
-              },
-              {
-                "type": "multiple",
-                "cost": 20223
-              }
-            ]
-          },
-          {
-            "name": "Kutmadan Resort",
-            "location": "6QX4+33 Cherrapunjee, Meghalaya",
-            "contacts": [
-              "087309 45471"
-            ],
-            "rooms": []
-          },
-          {
-            "name": "Cherrapunjee Holiday Resort",
-            "location": "6M97+Q4 Cherrapunjee, Meghalaya",
-            "contacts": [
-              "087948 03833"
-            ],
-            "rooms": []
-          }
-        ]
+        "stays": []
       }]
     },
     {
@@ -1129,66 +820,7 @@
             "location": "Cherrapunjee to Mawsynram",
             "description": "Approximately 3h required to travel about 90km\nOne halt at Khasi village would require 6h to reach Mawsynram"
           }],
-          "stays": [{
-              "name": "Jiva Resort",
-              "location": "7P6X+92 Cherrapunjee, Meghalaya",
-              "contacts": [
-                "070851 77777"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Saimika Resort",
-              "location": "7PQ3+5H Cherrapunjee, Meghalaya",
-              "contacts": [
-                "098622 21718"
-              ],
-              "rooms": [{
-                "type": "multiple",
-                "cost": 3240
-              }]
-            },
-            {
-              "name": "Cafe Cherrapunjee",
-              "location": "CQHR+RR Mawjrong, Meghalaya",
-              "contacts": [
-                "087309 45471"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Polo Orchid Resort",
-              "location": "6PMM+GQ Cherrapunjee, Meghalaya",
-              "contacts": [
-                "087947 01637"
-              ],
-              "rooms": [{
-                  "type": "multiple",
-                  "cost": 19199
-                },
-                {
-                  "type": "multiple",
-                  "cost": 20223
-                }
-              ]
-            },
-            {
-              "name": "Kutmadan Resort",
-              "location": "6QX4+33 Cherrapunjee, Meghalaya",
-              "contacts": [
-                "087309 45471"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Cherrapunjee Holiday Resort",
-              "location": "6M97+Q4 Cherrapunjee, Meghalaya",
-              "contacts": [
-                "087948 03833"
-              ],
-              "rooms": []
-            }
-          ]
+          "stays": []
         },
         {
           "name": "Khasi Village",
