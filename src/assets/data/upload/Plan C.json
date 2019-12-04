@@ -438,92 +438,34 @@
             },
             {
               "name": "Night Stay at Itanagar",
-              "location": "",
-              "description": ""
+              "location": "Itanagar Guest House cum Homestay",
+              "description": "No Advance Paid"
             }
           ],
           "stays": [{
-              "name": "Hotel Arunachal",
-              "location": "4M4V+P5 Naharlagun, Arunachal Pradesh",
-              "contacts": [
-                "0360 224 4960"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Hotel Donyi Polo Ashok",
-              "location": "3JWM+98 Itanagar, Arunachal Pradesh",
-              "contacts": [
-                "0360 221 2626"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Hotel Itafort",
-              "location": "3JXG+XJ Itanagar, Arunachal Pradesh",
-              "contacts": [
-                "0360 221 2806"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 5150
-              }]
-            },
-            {
-              "name": "Hotel AANE",
-              "location": "4J2G+2X Itanagar, Arunachal Pradesh",
-              "contacts": [
-                "0360 221 1289"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 3103
-              }]
-            },
-            {
-              "name": "Waii International Hotel",
-              "location": "4J3F+Q9 Itanagar, Arunachal Pradesh",
-              "contacts": [
-                "0360 229 1471"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 5000
-              }]
-            },
-            {
-              "name": "Hotel Pybss",
-              "location": "3JVC+9H Itanagar, Arunachal Pradesh",
-              "contacts": [
-                "3JVC+9H Itanagar, Arunachal Pradesh"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 4484
-                },
-                {
-                  "type": "multiple",
-                  "cost": 9726
-                }
-              ]
-            },
-            {
-              "name": "Hotel Su Pinsa",
-              "location": "3JVC+J5 Itanagar, Arunachal Pradesh",
-              "contacts": [
-                "082579 60836"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 7245
-                },
-                {
-                  "type": "double",
-                  "cost": 3817
-                }
-              ]
-            }
-          ]
+            "name": "Itanagar Guest House cum Homestay",
+            "location": "3JJ3+9W Itanagar, Arunachal Pradesh",
+            "contacts": [
+              "088372 69321"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 5500
+              },
+              {
+                "type": "perhead",
+                "cost": 687.5
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 5500
+              }
+            ]
+          }]
         }
       ]
     },
@@ -536,191 +478,61 @@
             "description": "Approximately 5h required to travel about 120km"
           }],
           "stays": [{
-              "name": "Hotel Arunachal",
-              "location": "4M4V+P5 Naharlagun, Arunachal Pradesh",
-              "contacts": [
-                "0360 224 4960"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Hotel Donyi Polo Ashok",
-              "location": "3JWM+98 Itanagar, Arunachal Pradesh",
-              "contacts": [
-                "0360 221 2626"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Hotel Itafort",
-              "location": "3JXG+XJ Itanagar, Arunachal Pradesh",
-              "contacts": [
-                "0360 221 2806"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 5150
-              }]
-            },
-            {
-              "name": "Hotel AANE",
-              "location": "4J2G+2X Itanagar, Arunachal Pradesh",
-              "contacts": [
-                "0360 221 1289"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 3103
-              }]
-            },
-            {
-              "name": "Waii International Hotel",
-              "location": "4J3F+Q9 Itanagar, Arunachal Pradesh",
-              "contacts": [
-                "0360 229 1471"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 5000
-              }]
-            },
-            {
-              "name": "Hotel Pybss",
-              "location": "3JVC+9H Itanagar, Arunachal Pradesh",
-              "contacts": [
-                "3JVC+9H Itanagar, Arunachal Pradesh"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 4484
-                },
-                {
-                  "type": "multiple",
-                  "cost": 9726
-                }
-              ]
-            },
-            {
-              "name": "Hotel Su Pinsa",
-              "location": "3JVC+J5 Itanagar, Arunachal Pradesh",
-              "contacts": [
-                "082579 60836"
-              ],
-              "rooms": [{
-                  "type": "double",
-                  "cost": 7245
-                },
-                {
-                  "type": "double",
-                  "cost": 3817
-                }
-              ]
-            }
-          ]
+            "name": "Itanagar Guest House cum Homestay",
+            "location": "3JJ3+9W Itanagar, Arunachal Pradesh",
+            "contacts": [
+              "088372 69321"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 5500
+              },
+              {
+                "type": "perhead",
+                "cost": 687.5
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 5500
+              }
+            ]
+          }]
         },
         {
           "name": "Ziro",
           "attractions": [{
             "name": "Night Stay at Ziro",
-            "location": "",
-            "description": ""
+            "location": "Zimin Ziro Hotel",
+            "description": "No Advance Paid"
           }],
           "stays": [{
-              "name": "Hotel Pine Ridge",
-              "location": "3JQ6+3G Itanagar, Arunachal Pradesh",
-              "contacts": [
-                ""
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Siiro Resort",
-              "location": "GRFM+PJ Ziro, Arunachal Pradesh",
-              "contacts": [
-                "03788 225 123",
-                "http://www.siiroresort.com"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 1200
-              }]
-            },
-            {
-              "name": "Hotel Blue Pine",
-              "location": "GRV5+63 Ziro, Arunachal Pradesh",
-              "contacts": [
-                "03788 224 812"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Passa Lath Resort",
-              "location": "7MVMHR7H+2V",
-              "contacts": [
-                "085757 59112"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Vamoosetrail Ziro (1)",
-              "location": "GRR8+FC Ziro",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                  "type": "single",
-                  "cost": 1904
-                },
-                {
-                  "type": "double",
-                  "cost": 4130
-                }
-              ]
-            },
-            {
-              "name": "Vamoosetrail Ziro (2)",
-              "location": "HRRH+55 Old Ziro",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                  "type": "single",
-                  "cost": 2520
-                },
-                {
-                  "type": "double",
-                  "cost": 5310
-                }
-              ]
-            },
-            {
-              "name": "Vamoosetrail Ziro (3)",
-              "location": "GQQ3+95 Yazali",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                  "type": "single",
-                  "cost": 2340
-                },
-                {
-                  "type": "double",
-                  "cost": 4484
-                }
-              ]
-            },
-            {
-              "name": "Vamoosetrail Ziro (4)",
-              "location": "GRV9+WR Ziro, Arunachal Pradesh",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 2950
-              }]
-            }
-          ]
+            "name": "Zimin Ziro Hotel",
+            "location": "HR5H+QF Hapoli, Arunachal Pradesh",
+            "contacts": [
+              "094852 89699"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 4500
+              },
+              {
+                "type": "perhead",
+                "cost": 562.5
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 4500
+              }
+            ]
+          }]
         }
       ]
     },
@@ -754,101 +566,29 @@
             }
           ],
           "stays": [{
-              "name": "Hotel Pine Ridge",
-              "location": "3JQ6+3G Itanagar, Arunachal Pradesh",
-              "contacts": [
-                ""
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Siiro Resort",
-              "location": "GRFM+PJ Ziro, Arunachal Pradesh",
-              "contacts": [
-                "03788 225 123",
-                "http://www.siiroresort.com"
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 1200
-              }]
-            },
-            {
-              "name": "Hotel Blue Pine",
-              "location": "GRV5+63 Ziro, Arunachal Pradesh",
-              "contacts": [
-                "03788 224 812"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Passa Lath Resort",
-              "location": "7MVMHR7H+2V",
-              "contacts": [
-                "085757 59112"
-              ],
-              "rooms": []
-            },
-            {
-              "name": "Vamoosetrail Ziro (1)",
-              "location": "GRR8+FC Ziro",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                  "type": "single",
-                  "cost": 1904
-                },
-                {
-                  "type": "double",
-                  "cost": 4130
-                }
-              ]
-            },
-            {
-              "name": "Vamoosetrail Ziro (2)",
-              "location": "HRRH+55 Old Ziro",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                  "type": "single",
-                  "cost": 2520
-                },
-                {
-                  "type": "double",
-                  "cost": 5310
-                }
-              ]
-            },
-            {
-              "name": "Vamoosetrail Ziro (3)",
-              "location": "GQQ3+95 Yazali",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                  "type": "single",
-                  "cost": 2340
-                },
-                {
-                  "type": "double",
-                  "cost": 4484
-                }
-              ]
-            },
-            {
-              "name": "Vamoosetrail Ziro (4)",
-              "location": "GRV9+WR Ziro, Arunachal Pradesh",
-              "contacts": [
-                ""
-              ],
-              "rooms": [{
-                "type": "double",
-                "cost": 2950
-              }]
-            }
-          ]
+            "name": "Zimin Ziro Hotel",
+            "location": "HR5H+QF Hapoli, Arunachal Pradesh",
+            "contacts": [
+              "094852 89699"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 4500
+              },
+              {
+                "type": "perhead",
+                "cost": 562.5
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 4500
+              }
+            ]
+          }]
         },
         {
           "name": "Majuli Island",
@@ -1507,24 +1247,75 @@
       ]
     }
   ],
-  "expenses": {
-    "flights": {
-      "total": 0,
-      "advance": 0,
-      "balance": 0,
-      "perhead": 0
-    },
+  "miscellaneous": {
+    "flights": [{
+      "departure": {
+        "city": {
+          "name": "Mumbai",
+          "code": "BOM"
+        },
+        "date": "2019-12-20T16:55:00.000Z",
+        "duration": 145
+      },
+      "layovers": [{
+        "city": {
+          "name": "New Delhi",
+          "code": "DEL"
+        },
+        "arrivalDate": "2019-12-20T16:55:00.000Z",
+        "duration": 285,
+        "departureDate": "2019-12-20T23:55:00.000Z"
+      }],
+      "arrival": {
+        "city": {
+          "name": "Guwahati",
+          "code": "GAU"
+        },
+        "date": "2019-12-21T02:20:00.000Z",
+        "duration": 145
+      },
+      "people": [{
+          "name": "Usama Ansari",
+          "pnr": "OFJ5MP",
+          "expense": 16081
+        },
+        {
+          "name": "Vishakha Parab",
+          "pnr": "",
+          "expense": 0
+        },
+        {
+          "name": "Rishi Patel",
+          "pnr": "",
+          "expense": 0
+        },
+        {
+          "name": "Akshay Shinde",
+          "pnr": "GJY72A",
+          "expense": 16907
+        },
+        {
+          "name": "Renuka Mapari",
+          "pnr": "GJY72A",
+          "expense": 16907
+        },
+        {
+          "name": "Khushal Kalbhor",
+          "pnr": "GJY72A",
+          "expense": 16907
+        },
+        {
+          "name": "Rajnish *",
+          "pnr": "GJY72A",
+          "expense": 16907
+        }
+      ]
+    }],
     "hotels": {
-      "total": 0,
-      "advance": 0,
-      "balance": 0,
-      "perhead": 0
+
     },
     "transition": {
-      "total": 0,
-      "advance": 0,
-      "balance": 0,
-      "perhead": 0
+
     }
   }
 }

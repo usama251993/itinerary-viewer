@@ -1,12 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-import { IaTripService } from '../shared/services/ia-trip.service';
+import { IaTripService, tripModel } from '../shared/services/ia-trip.service';
 import { Router, ActivatedRoute } from '@angular/router';
 
-export interface HotelRoom {
-  roomType: string;
-  roomCost: number;
-}
 
 @Component({
   selector: 'app-ia-view-trip',
@@ -16,30 +12,22 @@ export interface HotelRoom {
 
 export class IaViewTripComponent implements OnInit {
 
-  newTrip: {} = {};
+  newTrip: tripModel = {} as tripModel;
   dateOptions: {} = {};
+  roomOptions: { optionValue: string, optionText: string }[] = [];
   roomValues: {} = {};
+  expensesOptions: { optionValue: string, optionText: string }[] = [];
+  expensesValues: {} = {};
   today: Date = new Date(Date.now());
-  displayedColumns: string[] = ["type", "cost"];
-
-  roomOptions: { optionValue: string, optionText: string }[] = [
-    { optionValue: "single", optionText: "Single Occupancy" },
-    { optionValue: "double", optionText: "Double Occupancy" },
-    { optionValue: "multiple", optionText: "Multiple Occupancy" },
-    { optionValue: "dormitory", optionText: "Dormitory" },
-    { optionValue: "perhead", optionText: "Cost Per Person" },
-    { optionValue: "advance", optionText: "Advance Paid" },
-    { optionValue: "total", optionText: "Total Amount" },
-    { optionValue: "balance", optionText: "Balance Amount" },
-    { optionValue: "others", optionText: "Others" }
-  ];
-
+  displayedColumns: string[] = [];
 
   constructor(private tripService: IaTripService,
     private router: Router,
     private route: ActivatedRoute) { }
 
   ngOnInit(): void {
+
+    this.roomOptions = this.tripService.roomOptions;
 
     this.roomOptions.forEach((roomOption) => {
       this.roomValues[roomOption.optionValue] = roomOption.optionText;
@@ -68,6 +56,10 @@ export class IaViewTripComponent implements OnInit {
     let currentDate = new Date(startDate);
     currentDate.setDate(new Date(startDate).getDate() + dayIndex);
     return currentDate.toLocaleDateString('en-IN', this.dateOptions);
+  }
+
+  showExpenses(trip: tripModel) {
+
   }
 
 }

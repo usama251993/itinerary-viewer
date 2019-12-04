@@ -4,13 +4,15 @@
     <mat-tab *ngFor="let singleDay of newTrip.days; let dayIndex = index">
       <ng-template mat-tab-label>
         <div class="mat-tab-label-holder">
-          <div class="day-index" *ngIf="dayIndex === 0; else notFirstDay">
+          <div class="day-index"
+               *ngIf="dayIndex === 0; else notFirstDay">
             <span>
               <mat-icon>flight_land</mat-icon> Day {{ dayIndex + 1 }}
             </span>
           </div>
           <ng-template #notFirstDay>
-            <div class="day-index" *ngIf="dayIndex === newTrip.days.length - 1; else notLastDay">
+            <div class="day-index"
+                 *ngIf="dayIndex === newTrip.days.length - 1; else notLastDay">
               <span>
                 <mat-icon>flight_takeoff</mat-icon> Day {{ dayIndex + 1 }}
               </span>
@@ -25,7 +27,8 @@
             <span>{{ getCurrentDate(newTrip.tripStart.startDate, dayIndex) }}</span>
           </div>
           <div class="day-place-holder">
-            <div class="day-place" *ngIf="singleDay.places.length === 1; else morePlaces">
+            <div class="day-place"
+                 *ngIf="singleDay.places.length === 1; else morePlaces">
               <span>{{ singleDay.places[0].name }} round trip</span>
             </div>
             <ng-template #morePlaces>
@@ -42,7 +45,8 @@
       </ng-template>
 
       <ng-container>
-        <mat-tab-group mat-align-tabs="center" backgroundColor="primary">
+        <mat-tab-group mat-align-tabs="center"
+                       backgroundColor="primary">
           <mat-tab>
             <ng-template mat-tab-label>
               <div class="trip-entity-icon-holder">
@@ -54,7 +58,8 @@
             </ng-template>
             <div class="tab-content ">
               <div class="trip-entity-card-holder">
-                <mat-card class="trip-entity-card" *ngFor="let singlePlace of singleDay.places">
+                <mat-card class="trip-entity-card"
+                          *ngFor="let singlePlace of singleDay.places">
                   <mat-card-header>
                     <mat-card-title>
                       <span>{{ singlePlace.name }}</span>
@@ -63,7 +68,7 @@
                   </mat-card-header>
                   <mat-card-content>
                     <div class="no-trip-entity-message trip-entity-missing-information-holder"
-                      *ngIf="singlePlace.attractions.length === 0; else placeAttractions">
+                         *ngIf="singlePlace.attractions.length === 0; else placeAttractions">
                       <div class="trip-entity-icon-holder">
                         <mat-icon>clear</mat-icon>
                       </div>
@@ -81,7 +86,7 @@
                           </mat-expansion-panel-header>
                           <div class="expansion-panel-contents">
                             <div class="trip-entity-address-holder"
-                              *ngIf="singleAttraction.location !== ''; else noAttractionAddress">
+                                 *ngIf="singleAttraction.location !== ''; else noAttractionAddress">
                               <div class="trip-entity-icon-holder">
                                 <mat-icon>place</mat-icon>
                               </div>
@@ -102,7 +107,7 @@
                             <div class="trip-entity-description-holder">
                               <div class="trip-entity-description">
                                 <span
-                                  *ngIf="singleAttraction.description; else noAttractionDescription">{{ singleAttraction.description }}</span>
+                                      *ngIf="singleAttraction.description; else noAttractionDescription">{{ singleAttraction.description }}</span>
                               </div>
                             </div>
                             <ng-template #noAttractionDescription>
@@ -145,7 +150,7 @@
                     </mat-panel-title>
                   </mat-expansion-panel-header>
                   <div class="no-trip-entity-message trip-entity-missing-information-holder"
-                    *ngIf="singlePlace.stays.length === 0; else placeStays">
+                       *ngIf="singlePlace.stays.length === 0; else placeStays">
                     <div class="trip-entity-icon-holder">
                       <mat-icon>clear</mat-icon>
                     </div>
@@ -156,7 +161,8 @@
                   <ng-template #placeStays>
                     <div class="expansion-panel-content">
                       <div class="trip-entity-card-holder">
-                        <mat-card class="trip-entity-card" *ngFor="let singleStay of singlePlace.stays">
+                        <mat-card class="trip-entity-card"
+                                  *ngFor="let singleStay of singlePlace.stays">
                           <mat-card-header>
                             <mat-card-title>
                               <div class="trip-entity-name-holder">
@@ -171,7 +177,7 @@
                             <mat-card-subtitle>
                               <div class="trip-entity-detail-holder">
                                 <div class="trip-entity-address-holder"
-                                  *ngIf="singleStay.location !== ''; else noStayAddress">
+                                     *ngIf="singleStay.location !== ''; else noStayAddress">
                                   <div class="trip-entity-icon-holder">
                                     <mat-icon>place</mat-icon>
                                   </div>
@@ -190,7 +196,7 @@
                                   </div>
                                 </ng-template>
                                 <div class="no-trip-entity-message trip-entity-missing-information-holder"
-                                  *ngIf="singleStay.contacts.length === 0 || singleStay.contacts[0] === ''; else stayContacts">
+                                     *ngIf="singleStay.contacts.length === 0 || singleStay.contacts[0] === ''; else stayContacts">
                                   <div class="trip-entity-icon-holder">
                                     <mat-icon>clear</mat-icon>
                                   </div>
@@ -204,7 +210,8 @@
                                       <mat-icon>phone</mat-icon>
                                     </div>
                                     <div class="trip-entity-contact-list-holder">
-                                      <div class="trip-entity-contact" *ngFor="let contact of singleStay.contacts">
+                                      <div class="trip-entity-contact"
+                                           *ngFor="let contact of singleStay.contacts">
                                         <span>{{ contact }}</span>
                                       </div>
                                     </div>
@@ -216,7 +223,7 @@
                           <mat-card-content>
                             <mat-divider></mat-divider>
                             <div class="no-trip-entity-message trip-entity-missing-information-holder"
-                              *ngIf="singleStay.rooms.length === 0; else roomTable">
+                                 *ngIf="singleStay.rooms.length === 0; else roomTable">
                               <div class="trip-entity-icon-holder">
                                 <mat-icon>clear</mat-icon>
                               </div>
@@ -266,7 +273,9 @@
 
   <div class="button-holder">
     <div class="button">
-      <button mat-stroked-button color="primary">View Trip Expenses</button>
+      <button mat-stroked-button
+              color="primary"
+              (click)="showExpenses(newTrip)">View Other Details</button>
     </div>
   </div>
 

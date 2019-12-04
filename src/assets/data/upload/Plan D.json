@@ -443,10 +443,34 @@
           "name": "Tezpur",
           "attractions": [{
             "name": "Night Stay at Tezpur",
-            "location": "",
-            "description": ""
+            "location": "Hotel Friends",
+            "description": "No Advance Paid"
           }],
-          "stays": []
+          "stays": [{
+            "name": "Hotel Friends",
+            "location": "JQFV+FR Tezpur, Assam",
+            "contacts": [
+              "088222 27722",
+              "https://www.booking.com/hotel/in/spot-on-63310-friends.en-gb.html"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 3615
+              },
+              {
+                "type": "perhead",
+                "cost": 451.875
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 3615
+              }
+            ]
+          }]
         }
       ]
     },
@@ -458,7 +482,31 @@
             "location": "Tezpur to Kaziranga",
             "description": "Approximately 3h required to travel about 90km"
           }],
-          "stays": []
+          "stays": [{
+            "name": "Hotel Friends",
+            "location": "JQFV+FR Tezpur, Assam",
+            "contacts": [
+              "088222 27722",
+              "https://www.booking.com/hotel/in/spot-on-63310-friends.en-gb.html"
+            ],
+            "rooms": [{
+                "type": "total",
+                "cost": 3615
+              },
+              {
+                "type": "perhead",
+                "cost": 451.875
+              },
+              {
+                "type": "advance",
+                "cost": 0
+              },
+              {
+                "type": "balance",
+                "cost": 3615
+              }
+            ]
+          }]
         },
         {
           "name": "Kaziranga",
