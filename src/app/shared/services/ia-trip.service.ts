@@ -24,7 +24,7 @@ export interface tripModel {
       }
     }[]
   }[],
-  miscellaneous?: {
+  miscellaneous: {
     flights?: {
     },
     hotels?: {

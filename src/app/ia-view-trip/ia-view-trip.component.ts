@@ -2,12 +2,14 @@ import { Component, OnInit } from '@angular/core';
 
 import { IaTripService, tripModel } from '../shared/services/ia-trip.service';
 import { Router, ActivatedRoute } from '@angular/router';
+import { MatDialog, MatDialogConfig, MatDialogRef } from '@angular/material';
+import { IaViewDialog } from './ia-view-dialog';
 
 
 @Component({
   selector: 'app-ia-view-trip',
   templateUrl: './ia-view-trip.component.html',
-  styleUrls: ['./ia-view-trip.component.scss']
+  styleUrls: ['./ia-view-trip.component.scss'],
 })
 
 export class IaViewTripComponent implements OnInit {
@@ -21,9 +23,14 @@ export class IaViewTripComponent implements OnInit {
   today: Date = new Date(Date.now());
   displayedColumns: string[] = [];
 
-  constructor(private tripService: IaTripService,
+  dialogRef: MatDialogRef<IaViewDialog>;
+
+  constructor(
     private router: Router,
-    private route: ActivatedRoute) { }
+    private route: ActivatedRoute,
+    private tripService: IaTripService,
+    private dialog: MatDialog
+  ) { }
 
   ngOnInit(): void {
 
@@ -58,9 +65,17 @@ export class IaViewTripComponent implements OnInit {
     return currentDate.toLocaleDateString('en-IN', this.dateOptions);
   }
 
-  showExpenses(trip: tripModel) {
+  otherDetails() {
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.closeOnNavigation = true;
+    dialogConfig.data = this.newTrip.miscellaneous;
+    dialogConfig.minWidth = '320px';
 
+    this.dialogRef = this.dialog.open(IaViewDialog, dialogConfig);
+
+    this.dialogRef.afterClosed().subscribe(result => {
+      this.dialogRef = null;
+    });
   }
 
 }
-

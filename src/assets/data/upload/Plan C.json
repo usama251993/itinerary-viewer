@@ -1276,38 +1276,31 @@
       },
       "people": [{
           "name": "Usama Ansari",
-          "pnr": "OFJ5MP",
-          "expense": 16081
+          "pnr": "OFJ5MP"
         },
         {
           "name": "Vishakha Parab",
-          "pnr": "",
-          "expense": 0
+          "pnr": "CYDK5L"
         },
         {
           "name": "Rishi Patel",
-          "pnr": "",
-          "expense": 0
+          "pnr": ""
         },
         {
           "name": "Akshay Shinde",
-          "pnr": "GJY72A",
-          "expense": 16907
+          "pnr": "GJY72A"
         },
         {
           "name": "Renuka Mapari",
-          "pnr": "GJY72A",
-          "expense": 16907
+          "pnr": "GJY72A"
         },
         {
           "name": "Khushal Kalbhor",
-          "pnr": "GJY72A",
-          "expense": 16907
+          "pnr": "GJY72A"
         },
         {
           "name": "Rajnish *",
-          "pnr": "GJY72A",
-          "expense": 16907
+          "pnr": ""
         }
       ]
     }],

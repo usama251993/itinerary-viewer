@@ -11,6 +11,7 @@ import {
   MatListModule,
   MatExpansionModule,
   MatTableModule,
+  MatDialogModule,
 } from '@angular/material';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -23,6 +24,7 @@ import { IaAlternateHomeComponent } from './ia-alternate-home/ia-alternate-home.
 import { IaViewTripComponent } from './ia-view-trip/ia-view-trip.component';
 
 import { IaTripService } from './shared/services/ia-trip.service';
+import { IaViewDialog } from './ia-view-trip/ia-view-dialog';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,7 @@ import { IaTripService } from './shared/services/ia-trip.service';
     IaHeaderComponent,
     IaViewTripComponent,
     IaAlternateHomeComponent,
+    IaViewDialog
   ],
   imports: [
     BrowserModule,
@@ -43,12 +46,14 @@ import { IaTripService } from './shared/services/ia-trip.service';
     MatTabsModule,
     MatListModule,
     MatExpansionModule,
-    MatTableModule
+    MatTableModule,
+    MatDialogModule
   ],
   providers: [
     IaTripService,
   ],
   entryComponents: [
+    IaViewDialog
   ],
   bootstrap: [AppComponent]
 })

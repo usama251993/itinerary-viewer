@@ -984,24 +984,5 @@
       ]
     }
   ],
-  "expenses": {
-    "flights": {
-      "total": 0,
-      "advance": 0,
-      "balance": 0,
-      "perhead": 0
-    },
-    "hotels": {
-      "total": 0,
-      "advance": 0,
-      "balance": 0,
-      "perhead": 0
-    },
-    "transition": {
-      "total": 0,
-      "advance": 0,
-      "balance": 0,
-      "perhead": 0
-    }
-  }
+  "miscellaneous": {}
 }
