@@ -1248,67 +1248,133 @@
     }
   ],
   "miscellaneous": {
-    "flights": [{
-      "departure": {
-        "city": {
-          "name": "Mumbai",
-          "code": "BOM"
-        },
-        "date": "2019-12-20T16:55:00.000Z",
-        "duration": 145
+    "journeys": [{
+        "flights": [{
+            "departure": {
+              "city": {
+                "name": "Mumbai",
+                "code": "BOM"
+              },
+              "date": "2019-12-20T16:55:00.000Z"
+            },
+            "arrival": {
+              "city": {
+                "name": "New Delhi",
+                "code": "DEL"
+              },
+              "date": "2019-12-20T16:55:00.000Z"
+            },
+            "duration": 145
+          },
+          {
+            "departure": {
+              "city": {
+                "name": "New Delhi",
+                "code": "DEL"
+              },
+              "date": "2019-12-20T23:55:00.000Z"
+            },
+            "arrival": {
+              "city": {
+                "name": "Guwahati",
+                "code": "GAU"
+              },
+              "date": "2019-12-21T02:20:00.000Z"
+            },
+            "duration": 145
+          }
+        ],
+        "layovers": [{
+          "city": {
+            "name": "New Delhi",
+            "code": "DEL"
+          },
+          "arrivalDate": "2019-12-20T16:55:00.000Z",
+          "duration": 285,
+          "departureDate": "2019-12-20T23:55:00.000Z"
+        }]
       },
-      "layovers": [{
-        "city": {
-          "name": "New Delhi",
-          "code": "DEL"
-        },
-        "arrivalDate": "2019-12-20T16:55:00.000Z",
-        "duration": 285,
-        "departureDate": "2019-12-20T23:55:00.000Z"
-      }],
-      "arrival": {
-        "city": {
-          "name": "Guwahati",
-          "code": "GAU"
-        },
-        "date": "2019-12-21T02:20:00.000Z",
-        "duration": 145
-      },
-      "people": [{
-          "name": "Usama Ansari",
-          "pnr": ["OFJ5MP"]
-        },
-        {
-          "name": "Vishakha Parab",
-          "pnr": ["CYDK5L"]
-        },
-        {
-          "name": "Rishi Patel",
-          "pnr": [""]
-        },
-        {
-          "name": "Akshay Shinde",
-          "pnr": ["GJY72A"]
-        },
-        {
-          "name": "Renuka Mapari",
-          "pnr": ["GJY72A"]
-        },
-        {
-          "name": "Khushal Kalbhor",
-          "pnr": ["GJY72A"]
-        },
-        {
-          "name": "Rajnish *",
-          "pnr": [""]
-        }
-      ]
-    }],
+      {
+        "flights": [{
+            "departure": {
+              "city": {
+                "name": "Guwahati",
+                "code": "GAU"
+              },
+              "date": "2020-01-04T12:25:00.000Z"
+            },
+            "arrival": {
+              "city": {
+                "name": "Kolkata",
+                "code": "CCU"
+              },
+              "date": "2020-01-04T13:50:00.000Z"
+            },
+            "duration": 85
+          },
+          {
+            "departure": {
+              "city": {
+                "name": "Kolkata",
+                "code": "CCU"
+              },
+              "date": "2020-01-04T16:00:00.000Z"
+            },
+            "arrival": {
+              "city": {
+                "name": "Mumbai",
+                "code": "BOM"
+              },
+              "date": "2020-01-04T19:00:00.000Z"
+            },
+            "duration": 180
+          }
+        ],
+        "layovers": [{
+          "city": {
+            "name": "Kolkata",
+            "code": "CCU"
+          },
+          "arrivalDate": "2020-01-04T13:50:00.000Z",
+          "duration": 130,
+          "departureDate": "2020-01-04T16:00:00.000Z"
+        }]
+      }
+    ],
     "hotels": {
 
     },
     "transition": {
 
-    }
+    },
+    "people": [{
+        "name": "Usama Ansari",
+        "pnr": ["OFJ5MP"]
+      },
+      {
+        "name": "Vishakha Parab",
+        "pnr": ["CYDK5L"]
+      },
+      {
+        "name": "Rishi Patel",
+        "pnr": [""]
+      },
+      {
+        "name": "Akshay Shinde",
+        "pnr": ["GJY72A"]
+      },
+      {
+        "name": "Renuka Mapari",
+        "pnr": ["GJY72A"]
+      },
+      {
+        "name": "Khushal Kalbhor",
+        "pnr": ["GJY72A"]
+      },
+      {
+        "name": "Rajnish *",
+        "pnr": [""]
+      }
+    ]
   }
 }
