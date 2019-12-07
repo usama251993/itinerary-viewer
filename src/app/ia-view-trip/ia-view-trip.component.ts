@@ -70,6 +70,7 @@ export class IaViewTripComponent implements OnInit {
     dialogConfig.closeOnNavigation = true;
     dialogConfig.data = this.newTrip.miscellaneous;
     dialogConfig.minWidth = '320px';
+    dialogConfig.width = '100vw';
 
     this.dialogRef = this.dialog.open(IaViewDialog, dialogConfig);
 

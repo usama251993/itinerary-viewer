@@ -3,6 +3,84 @@ div {
   flex-direction: column;
 }
 
-div.dialog-actions {
-  flex: 1;
+mat-dialog-content {
+  div.dialog-content {
+    margin: 1rem 0rem;
+
+    div.content-heading {
+      margin-bottom: 0.5rem;
+      font-size: 1.25rem;
+    }
+
+    div.flight-container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      div.flight-section {
+        div.flight-section-top {
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+
+          div.flight-location-holder {
+            font-size: 1.25rem;
+            font-weight: bold;
+          }
+
+          // div.flight-icon-holder {
+          //   justify-content: center;
+          //   align-items: center;
+          // }
+        }
+      }
+
+      div.flight-layover-details {
+          justify-content: center;
+          align-items: center;
+      }
+    }
+
+  }
+}
+
+// mat-icon.mat-icon {
+//   width: unset;
+//   height: unset;
+//   font-size: 3rem;
+// }
+
+mat-dialog-actions {
+  div.dialog-actions {
+    flex: 1;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  mat-dialog-content {
+    div.dialog-content {
+      div.flight-container {
+        align-items: stretch;
+        flex-direction: column;
+
+        div.flight-section {
+          flex-direction: row;
+          justify-content: space-between;
+        }
+
+        div.flight-layover-details {
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+        div.flight-duration-holder {
+          margin: 1rem 0rem;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
 }

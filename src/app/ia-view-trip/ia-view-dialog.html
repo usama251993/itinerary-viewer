@@ -4,10 +4,77 @@
   </div>
   <mat-dialog-content>
     <div class="dialog-content">
-
+      <div class="content-heading">
+        <span>Flights</span>
+      </div>
+      <div *ngFor="let singleFlight of tripDetails.flights"
+           class="flight-container">
+        <div class="flight-section">
+          <div class="flight-section-top">
+            <div class="flight-location-holder">
+              <span>{{ singleFlight.departure.city.name }} ({{ singleFlight.departure.city.code }})</span>
+            </div>
+            <!-- <div class="flight-icon-holder">
+              <mat-icon>flight_takeoff</mat-icon>
+            </div> -->
+          </div>
+          <div class="flight-section-bottom">
+            <div class="flight-time-holder">
+              <span>{{ getDate(singleFlight.departure.date) }}</span>
+              <span>{{ getTime(singleFlight.departure.date) }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="flight-duration-holder">
+          <span>{{ getDuration(singleFlight.departure.duration) }}</span>
+        </div>
+        <div *ngFor="let singleLayover of singleFlight.layovers"
+             class="flight-layover-details">
+          <!-- <div class="flight-icon-holder">
+            <mat-icon>timer</mat-icon>
+          </div> -->
+          <div class="flight-layover-location-holder">
+            <span>{{ singleLayover.city.name }} ({{ singleLayover.city.code }})</span>
+          </div>
+          <div class="flight-layover-duration-holder">
+            <div class="flight-layover-duration">
+              <span>{{ getDuration(singleLayover.duration) }} Layover</span>
+            </div>
+          </div>
+        </div>
+        <div class="flight-duration-holder">
+          <span>{{ getDuration(singleFlight.arrival.duration) }}</span>
+        </div>
+        <div class="flight-section">
+          <div class="flight-section-top">
+            <div class="flight-location-holder">
+              <span>{{ singleFlight.arrival.city.name }} ({{ singleFlight.arrival.city.code }})</span>
+            </div>
+            <!-- <div class="flight-icon-holder">
+              <mat-icon>flight_land</mat-icon>
+            </div> -->
+          </div>
+          <div class="flight-section-bottom">
+            <div class="flight-time-holder">
+              <span>{{ getDate(singleFlight.arrival.date) }}</span>
+              <span>{{ getTime(singleFlight.arrival.date) }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dialog-content">
+      <div class="content-heading">
+        <span>Hotels</span>
+      </div>
+    </div>
+    <div class="dialog-content">
+      <div class="content-heading">
+        <span>Internal Transport</span>
+      </div>
     </div>
   </mat-dialog-content>
-  <mat-divider></mat-divider>
+  <!-- <mat-divider></mat-divider> -->
   <mat-dialog-actions>
     <div class="dialog-actions">
       <button mat-stroked-button

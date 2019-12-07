@@ -1276,31 +1276,31 @@
       },
       "people": [{
           "name": "Usama Ansari",
-          "pnr": "OFJ5MP"
+          "pnr": ["OFJ5MP"]
         },
         {
           "name": "Vishakha Parab",
-          "pnr": "CYDK5L"
+          "pnr": ["CYDK5L"]
         },
         {
           "name": "Rishi Patel",
-          "pnr": ""
+          "pnr": [""]
         },
         {
           "name": "Akshay Shinde",
-          "pnr": "GJY72A"
+          "pnr": ["GJY72A"]
         },
         {
           "name": "Renuka Mapari",
-          "pnr": "GJY72A"
+          "pnr": ["GJY72A"]
         },
         {
           "name": "Khushal Kalbhor",
-          "pnr": "GJY72A"
+          "pnr": ["GJY72A"]
         },
         {
           "name": "Rajnish *",
-          "pnr": ""
+          "pnr": [""]
         }
       ]
     }],
