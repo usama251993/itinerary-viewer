@@ -77,7 +77,7 @@ export class IaViewTripComponent implements OnInit {
     }
   }
 
-  swipe(): void {
+  swipe(eventData: any, matTabGroup: MatTabGroup): void {
     // console.log(matTabGroup, eventData);
   }
 

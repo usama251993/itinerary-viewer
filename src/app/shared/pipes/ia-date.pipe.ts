@@ -17,7 +17,7 @@ export class IaDatePipe implements PipeTransform {
     }
   }
 
-  transform(startDate: string, dayIndex?: number): string {
+  transform(startDate: Date, dayIndex?: number): string {
     let currentDate = new Date(startDate);
     currentDate.setDate(new Date(startDate).getDate() + (dayIndex) ? dayIndex : 0);
     return currentDate.toLocaleDateString('en-IN', this.dateOptions);
