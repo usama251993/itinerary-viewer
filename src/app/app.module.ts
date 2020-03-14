@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, HammerGestureConfig, HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
 import {
@@ -18,6 +18,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 
+import 'hammerjs';
+
 import { AppComponent } from './app.component';
 import { IaHeaderComponent } from './ia-header/ia-header.component';
 import { IaAlternateHomeComponent } from './ia-alternate-home/ia-alternate-home.component';
@@ -25,6 +27,7 @@ import { IaViewTripComponent } from './ia-view-trip/ia-view-trip.component';
 
 import { IaTripService } from './shared/services/ia-trip.service';
 import { IaViewDialog } from './ia-view-trip/ia-view-dialog';
+import { IaDatePipe } from './shared/pipes/ia-date.pipe';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,8 @@ import { IaViewDialog } from './ia-view-trip/ia-view-dialog';
     IaHeaderComponent,
     IaViewTripComponent,
     IaAlternateHomeComponent,
-    IaViewDialog
+    IaViewDialog,
+    IaDatePipe
   ],
   imports: [
     BrowserModule,
@@ -51,6 +55,7 @@ import { IaViewDialog } from './ia-view-trip/ia-view-dialog';
   ],
   providers: [
     IaTripService,
+    { provide: HAMMER_GESTURE_CONFIG, useClass: HammerGestureConfig }
   ],
   entryComponents: [
     IaViewDialog

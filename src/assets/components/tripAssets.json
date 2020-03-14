@@ -1,0 +1,44 @@
+{
+  "options": [
+    {
+      "key": "single",
+      "text": "Single Occupancy"
+    },
+    {
+      "key": "double",
+      "text": "Double Occupancy"
+    },
+    {
+      "key": "multiple",
+      "text": "Multiple Occupancy"
+    },
+    {
+      "key": "dormitory",
+      "text": "Dormitory"
+    },
+    {
+      "key": "perhead",
+      "text": "Cost Per Person"
+    },
+    {
+      "key": "advance",
+      "text": "Advance Paid"
+    },
+    {
+      "key": "total",
+      "text": "Total Amount"
+    },
+    {
+      "key": "balance",
+      "text": "Balance Amount"
+    },
+    {
+      "key": "others",
+      "text": "Others"
+    }
+  ],
+  "displayedColumns": [
+    "type",
+    "cost"
+  ]
+}

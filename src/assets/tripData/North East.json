@@ -1,0 +1,144 @@
+{
+  "tripStart": {
+    "sourceCity": "Mumbai",
+    "startDate": "2019-12-20T18:30:00.000Z"
+  },
+  "days": [
+    {
+      "places": [
+        {
+          "name": "Guwahati",
+          "attractions": [
+            {
+              "name": "Enroute Petrol Pump",
+              "location": {
+                "label": "Daifam",
+                "map": "V4R6+GG Daifam, Bhutan"
+              },
+              "descriptions": [
+                "Daifam Petrol Pump in Bhutan, to get the first glimpse of the beautiful country, Bhutan!"
+              ]
+            },
+            {
+              "name": "Leave for Bomdila",
+              "location": {
+                "label": "Guwahati to Bomdila",
+                "map": ""
+              },
+              "descriptions": []
+            }
+          ],
+          "stays": []
+        },
+        {
+          "name": "Bomdila",
+          "attractions": [
+            {
+              "name": "Night stay at Bomdila",
+              "location": {
+                "label": "Anu Homestay",
+                "map": "7C7F+JC Bomdila, Arunachal Pradesh"
+              },
+              "descriptions": []
+            }
+          ],
+          "stays": [
+            {
+              "name": "Anu Homestay",
+              "location": {
+                "label": "Anu Homestay",
+                "map": "7C7F+JC Bomdila, Arunachal Pradesh"
+              },
+              "contacts": [
+                "087298 95222"
+              ],
+              "rooms": [
+                {
+                  "type": "total",
+                  "cost": 4000
+                },
+                {
+                  "type": "perhead",
+                  "cost": 500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "places": [
+        {
+          "name": "Bomdila",
+          "attractions": [
+            {
+              "name": "Leave for Tawang",
+              "location": {
+                "label": "Bomdila to Tawang"
+              },
+              "descriptions": []
+            }
+          ],
+          "stays": [
+            {
+              "name": "Anu Homestay",
+              "location": {
+                "label": "Anu Homestay",
+                "map": "7C7F+JC Bomdila, Arunachal Pradesh"
+              },
+              "contacts": [
+                "087298 95222"
+              ],
+              "rooms": [
+                {
+                  "type": "total",
+                  "cost": 4000
+                },
+                {
+                  "type": "perhead",
+                  "cost": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tawang",
+          "attractions": [
+            {
+              "name": "Night Stay at Tawang",
+              "location": {
+                "label": "Mandrel Guest House",
+                "map": "HVR5+HR Tawang, Arunachal Pradesh"
+              },
+              "descriptions": []
+            }
+          ],
+          "stays": [
+            {
+              "name": "Mandrel Guest House",
+              "location": {
+                "label": "Mandrel Guest House",
+                "map": "HVR5+HR Tawang, Arunachal Pradesh"
+              },
+              "contacts": [
+                "087298 93322"
+              ],
+              "rooms": [
+                {
+                  "type": "total",
+                  "cost": 12000
+                },
+                {
+                  "type": "perhead",
+                  "cost": 1500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
+import { Observable, throwError } from 'rxjs';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { catchError, retry } from 'rxjs/operators';
 
-export interface tripModel {
+export interface ITripModel {
   tripStart: {
     sourceCity: string,
     startDate: Date,
@@ -10,12 +13,18 @@ export interface tripModel {
       name: string,
       attractions?: {
         name: string,
-        location?: string,
-        description?: string
+        location?: {
+          label: string,
+          map?: string
+        },
+        descriptions?: string[]
       }[],
       stays?: {
         name: string,
-        location?: string,
+        location?: {
+          label: string,
+          map?: string
+        },
         contacts: string[],
         rooms: {
           type: string,
@@ -25,13 +34,29 @@ export interface tripModel {
     }[]
   }[],
   miscellaneous: {
-    flights?: {
-    },
-    hotels?: {
-    },
-    transition?: {
-    }
+    flights?: {},
+    hotels?: {},
+    transition?: {}
   }
+}
+
+export interface ITripDateOptions {
+  year: string,
+  month: string,
+  day: string,
+  weekday: string
+}
+
+export interface ITripSelectOption {
+  key: string,
+  text?: string,
+  value?: number
+}
+
+export interface ITripAssetsModel {
+  dateOptions?: ITripDateOptions,
+  options?: ITripSelectOption[],
+  displayedColumns?: ['type', 'cost']
 }
 
 @Injectable({
@@ -39,29 +64,38 @@ export interface tripModel {
 })
 export class IaTripService {
 
-  displayedColumns: string[] = ['type', 'cost'];
-  dateOptions: {} = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-  newTrip: tripModel = {} as tripModel;
-  roomOptions: { optionValue: string, optionText: string }[] = [
-    { optionValue: 'single', optionText: 'Single Occupancy' },
-    { optionValue: 'double', optionText: 'Double Occupancy' },
-    { optionValue: 'multiple', optionText: 'Multiple Occupancy' },
-    { optionValue: 'dormitory', optionText: 'Dormitory' },
-    { optionValue: 'perhead', optionText: 'Cost Per Person' },
-    { optionValue: 'advance', optionText: 'Advance Paid' },
-    { optionValue: 'total', optionText: 'Total Amount' },
-    { optionValue: 'balance', optionText: 'Balance Amount' },
-    { optionValue: 'others', optionText: 'Others' }
-  ];
-  expensesOptions = [
-    { optionValue: 'individual', optionText: 'Cost paid individually' },
-    { optionValue: 'total', optionText: 0 },
-    { optionValue: 'advance', optionText: 0 },
-    { optionValue: 'perhead', optionText: 0 },
-    { optionValue: 'balance', optionText: 0 },
-  ]
+  newTrip: ITripModel;
+  tripAssets: ITripAssetsModel;
   planString: string = '';
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
+
+  handleError(error: HttpErrorResponse): Observable<string> {
+
+    if (error.error instanceof ErrorEvent) {
+      console.log('Client Network Error!');
+      console.error(error.error.message);
+    } else {
+      console.log('Server Error!');
+      console.error(error.error);
+    }
+
+    return throwError('Unknown Error!');
+  }
+
+  getResource(sResourceURL: string): Observable<any> {
+    return this.http.get<any>(sResourceURL, { observe: 'body' }).pipe(
+      retry(2),
+      catchError(this.handleError)
+    );
+  }
+
+  getAssets(sAssetURL: string): Observable<any> {
+    return this.http.get<any>(sAssetURL, { observe: 'body' }).pipe(
+      retry(2),
+      catchError(this.handleError)
+    );
+  }
+
 }
 

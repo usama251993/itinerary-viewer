@@ -18,7 +18,7 @@ export class IaAlternateHomeComponent implements OnInit {
 
   navigateTo(plan: string) {
     this.tripService.planString = plan;
-    this.router.navigate(['../' + 'view'], { relativeTo: this.route });
+    this.router.navigate(['../', 'view', plan], { relativeTo: this.route });
   }
 
 }

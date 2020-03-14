@@ -1,0 +1,24 @@
+{
+  "options": [
+    {
+      "key": "individual",
+      "text": "Cost paid individually"
+    },
+    {
+      "key": "total",
+      "value": "0"
+    },
+    {
+      "key": "advance",
+      "value": "0"
+    },
+    {
+      "key": "perhead",
+      "value": "0"
+    },
+    {
+      "key": "balance",
+      "value": "0"
+    }
+  ]
+}

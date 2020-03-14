@@ -12,17 +12,14 @@
           </mat-panel-title>
         </mat-expansion-panel-header>
         <div class="dialog-content">
-          <div *ngFor="let singleJourney of tripDetails.journeys"
-               class="flight-container">
+          <div *ngFor="let singleJourney of tripDetails.journeys" class="flight-container">
             <mat-card>
               <mat-card-header>
                 <mat-card-title>
-                  <!-- <span>{{ singleJourney.departure.city.name }} to {{ singleFlight.arrival.city.name }}</span> -->
                 </mat-card-title>
               </mat-card-header>
               <mat-card-content>
-                <div *ngFor="let singleFlight of singleJourney.flights; let index = index"
-                     class="flight-detail-holder">
+                <div *ngFor="let singleFlight of singleJourney.flights; let index = index" class="flight-detail-holder">
                   <div class="flight-section">
                     <div class="flight-section-top">
                       <div class="flight-location-holder">
@@ -49,8 +46,7 @@
                       </div>
                     </div>
                   </div>
-                  <div *ngIf="index !== singleJourney.flights.length - 1"
-                       class="flight-layover-container">
+                  <div *ngIf="index !== singleJourney.flights.length - 1" class="flight-layover-container">
                     <div class="flight-layover-details">
                       <div class="flight-layover-location-holder">
                         <span>{{ singleJourney.layovers[index].city.name }}
@@ -93,9 +89,7 @@
 
   <mat-dialog-actions>
     <div class="dialog-actions">
-      <button mat-stroked-button
-              color="primary"
-              (click)="closeDialog()">Close</button>
+      <button mat-stroked-button color="primary" (click)="closeDialog()">Close</button>
     </div>
   </mat-dialog-actions>
 </div>
