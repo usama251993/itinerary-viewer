@@ -106,8 +106,11 @@
                                 <div class="trip-entity-description-holder">
                                   <div class="trip-entity-description"
                                     *ngIf="singleAttraction.descriptions.length !== 0; else noAttractionDescription;">
-                                    <span
-                                      *ngFor="let singleDescription of singleAttraction.descriptions">{{ singleDescription }}</span>
+                                    <mat-list>
+                                      <mat-list-item *ngFor="let singleDescription of singleAttraction.descriptions">
+                                        <span matLine>{{ singleDescription }}</span>
+                                      </mat-list-item>
+                                    </mat-list>
                                   </div>
                                 </div>
                                 <ng-template #noAttractionDescription>
@@ -178,12 +181,12 @@
                                 <mat-card-subtitle>
                                   <div class="trip-entity-detail-holder">
                                     <div class="trip-entity-address-holder"
-                                      *ngIf="singleStay.location !== ''; else noStayAddress;">
+                                      *ngIf="singleStay.location; else noStayAddress;">
                                       <div class="trip-entity-icon-holder">
                                         <mat-icon>place</mat-icon>
                                       </div>
                                       <div class="trip-entity-address">
-                                        <span>{{ singleStay.location }}</span>
+                                        <span>{{ singleStay.location.label }}</span>
                                       </div>
                                     </div>
                                     <ng-template #noStayAddress>
@@ -197,7 +200,7 @@
                                       </div>
                                     </ng-template>
                                     <div class="no-trip-entity-message trip-entity-missing-information-holder"
-                                      *ngIf="singleStay.contacts.length === 0 || singleStay.contacts[0] === ''; else stayContacts;">
+                                      *ngIf="singleStay.contacts.length === 0; else stayContacts;">
                                       <div class="trip-entity-icon-holder">
                                         <mat-icon>clear</mat-icon>
                                       </div>
@@ -211,9 +214,14 @@
                                           <mat-icon>phone</mat-icon>
                                         </div>
                                         <div class="trip-entity-contact-list-holder">
-                                          <div class="trip-entity-contact" *ngFor="let contact of singleStay.contacts">
+                                          <!-- <div class="trip-entity-contact" *ngFor="let contact of singleStay.contacts">
                                             <span>{{ contact }}</span>
-                                          </div>
+                                          </div> -->
+                                          <mat-list>
+                                            <mat-list-item *ngFor="let singleContact of singleStay.contacts">
+                                              <span matLine>{{ singleContact }}</span>
+                                            </mat-list-item>
+                                          </mat-list>
                                         </div>
                                       </div>
                                     </ng-template>
@@ -272,13 +280,24 @@
     </mat-tab-group>
     <div class="button-holder">
       <div class="button">
-        <button mat-stroked-button color="primary" (click)="otherDetails()">View Other Details</button>
+        <button mat-flat-button color="primary" (click)="otherDetails()">View Other Details</button>
       </div>
     </div>
   </ng-container>
 
   <ng-template #loadingData>
-    <span>Loading...</span>
+    <div class="loading-container mat-app-background">
+      <div class="loading-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 13 13" #loaderSVG>
+          <g>
+            <rect id="tl" x="1" y="1" rx="1" ry="1"></rect>
+            <rect id="tr" x="7" y="1" rx="1" ry="1"></rect>
+            <rect id="bl" x="1" y="7" rx="1" ry="1"></rect>
+            <rect id="br" x="7" y="7" rx="1" ry="1"></rect>
+          </g>
+        </svg>
+      </div>
+    </div>
   </ng-template>
 
 </div>

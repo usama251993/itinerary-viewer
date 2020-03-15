@@ -4,10 +4,10 @@ div {
 }
 div.view-container {
   min-height: 100vh;
-  
+
   mat-tab-group {
     flex: 1;
-    
+
     /deep/ {
       div.mat-tab-label {
         height: unset;
@@ -107,8 +107,60 @@ div.view-container {
       color: rgba(196, 196, 196, 1);
     }
   }
+
+  div.loading-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    div.loading-icon {
+      svg {
+        min-width: 240px;
+        max-width: 480px;
+
+        g {
+          rect {
+            width: 5px;
+            height: 5px;
+            fill: #212121;
+          }
+
+          rect#tl {
+            animation: colorize 500ms linear infinite forwards;
+          }
+
+          rect#tr {
+            animation: colorize 500ms 125ms linear infinite forwards;
+          }
+
+          rect#br {
+            animation: colorize 500ms 250ms linear infinite forwards;
+          }
+
+          rect#bl {
+            animation: colorize 500ms 375ms linear infinite forwards;
+          }
+        }
+      }
+    }
+  }
 }
 
 div.button-holder {
   padding: 0.5rem;
+}
+
+@keyframes colorize {
+  0% {
+    fill: #212121;
+  }
+
+  50% {
+    fill: #fafafa;
+  }
+
+  100% {
+    fill: #212121;
+  }
 }

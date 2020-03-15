@@ -10,14 +10,25 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
   <app-root>
     <div class="loading-container mat-app-background">
-      <div class="loading">
-        <span>Please Wait</span>
+      <div class="loading-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 13 13" #loaderSVG>
+          <g>
+            <rect id="tl" x="1" y="1" rx="1" ry="1"></rect>
+            <rect id="tr" x="7" y="1" rx="1" ry="1"></rect>
+            <rect id="bl" x="1" y="7" rx="1" ry="1"></rect>
+            <rect id="br" x="7" y="7" rx="1" ry="1"></rect>
+          </g>
+        </svg>
       </div>
+      <!-- <div class="loading-text">
+        <span>Please Wait</span>
+      </div> -->
     </div>
   </app-root>
 </body>

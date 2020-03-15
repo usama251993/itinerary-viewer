@@ -4,7 +4,9 @@ div {
 }
 
 div.button-holder {
-  justify-content: center;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
 
   div.button {
     justify-content: center;

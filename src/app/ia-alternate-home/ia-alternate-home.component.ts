@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { IaTripService } from '../shared/services/ia-trip.service';
+import { timer } from 'rxjs';
 
 @Component({
   selector: 'app-ia-alternate-home',
@@ -18,7 +19,9 @@ export class IaAlternateHomeComponent implements OnInit {
 
   navigateTo(plan: string) {
     this.tripService.planString = plan;
-    this.router.navigate(['../', 'view', plan], { relativeTo: this.route });
+    timer(500).pipe().subscribe((timerEmit: number) => {
+      this.router.navigate(['../', 'view', plan], { relativeTo: this.route });
+    })
   }
 
 }

@@ -1,22 +1,76 @@
 /* You can add global styles to this file, and also import other style files */
 
 // @import '~@angular/material/prebuilt-themes/indigo-pink.css';
-// @import '~@angular/material/prebuilt-themes/purple-green.css';
+// @import "~@angular/material/prebuilt-themes/purple-green.css";
 
 * {
   box-sizing: border-box;
+  font-family: "Fira Sans", "Roboto", "Calibri", sans-serif;
 }
 
-html,
-body {
-  margin: 0rem;
-  padding: 0rem;
+html {
+  body {
+    margin: 0rem;
+    padding: 0rem;
+
+    div.loading-container {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+
+      div.loading-icon {
+        svg {
+          min-width: 240px;
+          max-width: 480px;
+
+          g {
+            rect {
+              width: 5px;
+              height: 5px;
+              fill: #212121;
+            }
+
+            rect#tl {
+              animation: colorize 500ms linear infinite forwards;
+            }
+
+            rect#tr {
+              animation: colorize 500ms 125ms linear infinite forwards;
+            }
+
+            rect#br {
+              animation: colorize 500ms 250ms linear infinite forwards;
+            }
+
+            rect#bl {
+              animation: colorize 500ms 375ms linear infinite forwards;
+            }
+          }
+        }
+      }
+
+      // div.loading-text {
+      //   margin: 16px;
+
+      //   span {
+      //     font-size: 16px;
+      //   }
+      // }
+    }
+  }
 }
-html,
-body {
-  height: 100%;
-}
-body {
-  margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+
+@keyframes colorize {
+  0% {
+    fill: #212121;
+  }
+
+  50% {
+    fill: #fafafa;
+  }
+
+  100% {
+    fill: #212121;
+  }
 }
