@@ -13,7 +13,7 @@
               "name": "Enroute Petrol Pump",
               "location": {
                 "label": "Daifam",
-                "map": "V4R6+GG Daifam, Bhutan"
+                "map": "https://goo.gl/maps/aFqMjhgbr7GiJPg19"
               },
               "descriptions": [
                 "Daifam Petrol Pump in Bhutan, to get the first glimpse of the beautiful country, Bhutan!"
@@ -23,7 +23,7 @@
               "name": "Leave for Bomdila",
               "location": {
                 "label": "Guwahati to Bomdila",
-                "map": ""
+                "map": "https://goo.gl/maps/FFezhAvY4guQNcv59"
               },
               "descriptions": [
                 "Travel in chiling ambience of single digit temperature all time to Reach Bomdila"
@@ -39,7 +39,7 @@
               "name": "Night stay at Bomdila",
               "location": {
                 "label": "Anu Homestay",
-                "map": "7C7F+JC Bomdila, Arunachal Pradesh"
+                "map": "https://g.page/anu-homestay?share"
               },
               "descriptions": [
                 "Very cold",
@@ -55,7 +55,7 @@
               "name": "Anu Homestay",
               "location": {
                 "label": "Anu Homestay",
-                "map": "7C7F+JC Bomdila, Arunachal Pradesh"
+                "map": "https://g.page/anu-homestay?share"
               },
               "contacts": [
                 "087298 95222"
@@ -84,7 +84,7 @@
               "name": "Enroute Sela Pass",
               "location": {
                 "label": "Sela Pass",
-                "map": ""
+                "map": "https://goo.gl/maps/r2hPS4qgJehoPv7K8"
               },
               "descriptions": [
                 "The absolute incomparable beauty!"
@@ -104,7 +104,7 @@
               "name": "Anu Homestay",
               "location": {
                 "label": "Anu Homestay",
-                "map": "7C7F+JC Bomdila, Arunachal Pradesh"
+                "map": "https://g.page/anu-homestay?share"
               },
               "contacts": [
                 "087298 95222"
@@ -129,7 +129,7 @@
               "name": "Night Stay at Tawang",
               "location": {
                 "label": "Mandrel Guest House",
-                "map": "HVR5+HR Tawang, Arunachal Pradesh"
+                "map": "https://goo.gl/maps/bLxML86SCp7T59LH7"
               },
               "descriptions": [
                 "Excellent Stay",
@@ -147,7 +147,7 @@
               "name": "Mandrel Guest House",
               "location": {
                 "label": "Mandrel Guest House",
-                "map": "HVR5+HR Tawang, Arunachal Pradesh"
+                "map": "https://goo.gl/maps/bLxML86SCp7T59LH7"
               },
               "contacts": [
                 "087298 93322"
@@ -176,27 +176,31 @@
               "name": "Bum La Pass",
               "location": {
                 "label": "Bum La",
-                "map": ""
+                "map": "https://goo.gl/maps/DYoCxuVpQ1DMhYpx7"
               },
               "descriptions": [
-                "Review of Bum La Pass"
+                "3 hour drive to an elevation of 15,500 ft",
+                "Extremely cold region of Indo-China Line of Actual Control",
+                "Many lakes on the way, all frozen",
+                "Random attack of clouds from nowhere, covering everything in fog in just a matter of time"
               ]
             },
             {
-              "name": "Madhuri Lake | Sangetsar Tso",
+              "name": "Sangetsar Tso",
               "location": {
                 "label": "Madhuri Lake",
-                "map": ""
+                "map": "https://goo.gl/maps/ohQQqMiUrETQmVHs7"
               },
               "descriptions": [
-                "Review of Madhuri Lake"
+                "Perhaps the second most beautiful place in Arunachal after Sela Pass",
+                "The lake got all of us stunned as we said, just by looking at the Lake, \"Maa-dhuri!\""
               ]
             },
             {
               "name": "Night Stay at Tawang",
               "location": {
                 "label": "Mandrel Guest House",
-                "map": ""
+                "map": "https://goo.gl/maps/bLxML86SCp7T59LH7"
               },
               "descriptions": [
                 "Excellent Stay",
@@ -214,7 +218,7 @@
               "name": "Mandrel Guest House",
               "location": {
                 "label": "Mandrel Guest House",
-                "map": "HVR5+HR Tawang, Arunachal Pradesh"
+                "map": "https://goo.gl/maps/bLxML86SCp7T59LH7"
               },
               "contacts": [
                 "087298 93322"
@@ -243,10 +247,12 @@
               "name": "Tawang Monastery",
               "location": {
                 "label": "Tawang Monastery",
-                "map": ""
+                "map": "https://goo.gl/maps/tXnVd8Nz1AnVd5S39"
               },
               "descriptions": [
-                "Review of Tawang Monsatery"
+                "The largest Monastery of Tawang",
+                "Experienced wood chopping with monks",
+                "Visited the Monastery Museum"
               ]
             },
             {

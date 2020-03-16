@@ -1,7 +1,7 @@
 <div class="view-container mat-app-background">
 
   <ng-container *ngIf="bIsDataLoaded; else loadingData;">
-    <mat-tab-group backgroundColor="primary" (swipe)="swipe($event, tabGroup)" mat-align-tabs="center" #tabGroup>
+    <mat-tab-group backgroundColor="primary" mat-align-tabs="center" id="trip-days-tab">
       <mat-tab *ngFor="let singleDay of newTrip.days; let dayIndex = index">
         <ng-template matTabLabel>
           <div class="mat-tab-label-holder">
@@ -74,7 +74,7 @@
                         </div>
                       </div>
                       <ng-template #placeAttractions>
-                        <mat-accordion>
+                        <mat-accordion multi="true">
                           <mat-expansion-panel *ngFor="let singleAttraction of singlePlace.attractions">
                             <mat-expansion-panel-header>
                               <mat-panel-title>
@@ -82,7 +82,7 @@
                               </mat-panel-title>
                             </mat-expansion-panel-header>
                             <ng-template matExpansionPanelContent>
-                              <div class="expansion-panel-contents">
+                              <div class="expansion-panel-content">
                                 <div class="trip-entity-address-holder"
                                   *ngIf="singleAttraction.location; else noAttractionAddress;">
                                   <div class="trip-entity-icon-holder">
@@ -214,9 +214,6 @@
                                           <mat-icon>phone</mat-icon>
                                         </div>
                                         <div class="trip-entity-contact-list-holder">
-                                          <!-- <div class="trip-entity-contact" *ngFor="let contact of singleStay.contacts">
-                                            <span>{{ contact }}</span>
-                                          </div> -->
                                           <mat-list>
                                             <mat-list-item *ngFor="let singleContact of singleStay.contacts">
                                               <span matLine>{{ singleContact }}</span>

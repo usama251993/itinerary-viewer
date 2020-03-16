@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, HammerGestureConfig, HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
 import {
@@ -55,7 +55,6 @@ import { IaDatePipe } from './shared/pipes/ia-date.pipe';
   ],
   providers: [
     IaTripService,
-    { provide: HAMMER_GESTURE_CONFIG, useClass: HammerGestureConfig }
   ],
   entryComponents: [
     IaViewDialog
