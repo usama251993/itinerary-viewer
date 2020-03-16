@@ -1,8 +1,8 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, Renderer2 } from '@angular/core';
 
-import { IaTripService, ITripModel, ITripAssetsModel } from '../shared/services/ia-trip.service';
-import { Router, ActivatedRoute } from '@angular/router';
-import { MatDialog, MatDialogRef, MatTabGroup } from '@angular/material';
+import { ITripModel, ITripAssetsModel } from '../shared/services/ia-trip.service';
+import { ActivatedRoute } from '@angular/router';
+import { MatDialogRef, MatTabGroup, MatTabChangeEvent } from '@angular/material';
 import { IaViewDialog } from './ia-view-dialog';
 
 
@@ -16,49 +16,37 @@ export class IaViewTripComponent implements OnInit {
 
   @ViewChild('tabGroup', { static: true }) matTabGroup: MatTabGroup;
 
-  newTrip: ITripModel;
+  tripData: ITripModel;
   roomValues: { [key: string]: string };
   tripAssets: ITripAssetsModel;
   bIsDataLoaded: boolean;
   dialogRef: MatDialogRef<IaViewDialog>;
 
+  tabLabelContainer: Element;
   // SWIPE_ACTION = { LEFT: 'swipeleft', RIGHT: 'swiperight' };
 
   constructor(
-    private router: Router,
     private route: ActivatedRoute,
-    private tripService: IaTripService) { }
+    private renderer: Renderer2) { }
 
   ngOnInit(): void {
-    this.bIsDataLoaded = false
+
     this.roomValues = {};
 
-    let sAssetsURL = './assets/components/tripAssets.json';
-    this.tripService.getAssets(sAssetsURL).pipe().subscribe((assetsData: ITripAssetsModel) => {
-      this.tripAssets = assetsData;
+    this.route.data.subscribe((guardObject: { resolvedData: { tripData: ITripModel, tripAsset: ITripAssetsModel } }) => {
+      this.tripData = guardObject.resolvedData.tripData;
+      this.tripAssets = guardObject.resolvedData.tripAsset;
       this.tripAssets.options.forEach((roomOption) => {
         this.roomValues[roomOption.key] = roomOption.text;
       });
     });
 
-    let planString: string = '';
-    planString = this.tripService.planString;
-
-    if (planString === '') {
-      this.router.navigate(['../../' + 'home'], { relativeTo: this.route });
-    } else {
-      let sResourceURL = './assets/tripData/' + planString + '.json'
-      this.tripService.getResource(sResourceURL).pipe().subscribe((tripData: ITripModel) => {
-        this.newTrip = tripData;
-        this.bIsDataLoaded = true;
-      });
-    }
   }
 
   otherDetails(): void {
     // const dialogConfig = new MatDialogConfig();
     // dialogConfig.closeOnNavigation = true;
-    // dialogConfig.data = this.newTrip.miscellaneous;
+    // dialogConfig.data = this.tripData.miscellaneous;
     // dialogConfig.minWidth = '320px';
     // dialogConfig.width = '100vw';
 
@@ -77,8 +65,16 @@ export class IaViewTripComponent implements OnInit {
     }
   }
 
-  swipe(eventData: any, matTabGroup: MatTabGroup): void {
+  swipe(): void {
     // console.log(matTabGroup, eventData);
+  }
+
+  doNothing(tabGroupElement: MatTabGroup): void {
+    // let matTabList = (tabGroupElement._elementRef.nativeElement as HTMLElement).querySelectorAll('mat-tab-header mat-tab-label-container mat-tab-list')[0]
+    let tabLabelContainerDiv: Element = (tabGroupElement._elementRef.nativeElement as HTMLElement).querySelectorAll('mat-tab-header div.mat-tab-label-container')[0];
+    let tabLabelsDiv: Element = tabLabelContainerDiv.children[0];
+    this.renderer.removeAttribute(tabLabelsDiv, 'style');
+
   }
 
 }

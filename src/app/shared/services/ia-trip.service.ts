@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Observable, throwError } from 'rxjs';
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { catchError, retry } from 'rxjs/operators';
+import { HttpClient, HttpErrorResponse, HttpResponse } from '@angular/common/http';
+import { catchError, retry, map } from 'rxjs/operators';
+import { Router } from '@angular/router';
 
 export interface ITripModel {
   tripStart: {
@@ -68,7 +69,10 @@ export class IaTripService {
   tripAssets: ITripAssetsModel;
   planString: string = '';
 
-  constructor(private http: HttpClient) { }
+  constructor(
+    private http: HttpClient,
+    private router: Router
+  ) { }
 
   handleError(error: HttpErrorResponse): Observable<string> {
 
@@ -77,21 +81,24 @@ export class IaTripService {
       console.error(error.error.message);
     } else {
       console.log('Server Error!');
-      console.error(error.error);
+      console.log('Unable to fetch data at : ' + error.url);
+      console.log('Redirecting to home page')
+      this.router.navigate(['/home']);
     }
-
     return throwError('Unknown Error!');
   }
 
-  getResource(sResourceURL: string): Observable<any> {
-    return this.http.get<any>(sResourceURL, { observe: 'body' }).pipe(
+  getResource(sResourceURL: string): Observable<ITripModel | string> {
+    return this.http.get<ITripModel>(sResourceURL, { observe: 'body' }).pipe(
+      map((response: ITripModel) => response),
       retry(2),
       catchError(this.handleError)
     );
   }
 
-  getAssets(sAssetURL: string): Observable<any> {
-    return this.http.get<any>(sAssetURL, { observe: 'body' }).pipe(
+  getAssets(sAssetURL: string): Observable<ITripAssetsModel | string> {
+    return this.http.get<ITripAssetsModel>(sAssetURL, { observe: 'body' }).pipe(
+      map((response: ITripAssetsModel) => response),
       retry(2),
       catchError(this.handleError)
     );
