@@ -2,6 +2,7 @@ div {
   display: flex;
   flex-direction: column;
 }
+
 div.view-container {
   min-height: 100vh;
   justify-content: space-between;
@@ -132,11 +133,35 @@ div.view-container {
       color: rgba(196, 196, 196, 1);
     }
 
-    &#trip-days-tab {
+    &#trip-days-holder {
       /deep/ {
         mat-tab-header {
           div.mat-tab-header-pagination {
             display: none;
+          }
+
+          div.mat-tab-label-container {
+            overflow: auto;
+
+            &::-webkit-scrollbar {
+              // width: 5px;
+              // height: 5px;
+              display: none;
+            }
+
+            // &::-webkit-scrollbar-thumb {
+            //   background-color: #ffffff80;
+            //   border-radius: 3px;
+            //   opacity: 0;
+
+            //   &:hover {
+            //     opacity: 1;
+            //   }
+            // }
+
+            // &::-webkit-scrollbar-track {
+            //   background-color: #00000000;
+            // }
           }
         }
       }

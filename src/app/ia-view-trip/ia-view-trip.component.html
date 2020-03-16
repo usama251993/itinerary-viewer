@@ -1,8 +1,10 @@
 <div class="view-container mat-app-background">
 
-  <ng-container *ngIf="bIsDataLoaded; else loadingData;">
-    <mat-tab-group backgroundColor="primary" mat-align-tabs="center" id="trip-days-tab">
-      <mat-tab *ngFor="let singleDay of newTrip.days; let dayIndex = index">
+  <!-- <ng-container *ngIf="bIsDataLoaded; else loadingData;"> -->
+  <ng-container>
+    <mat-tab-group backgroundColor="primary" mat-align-tabs="center" id="trip-days-holder"
+      (selectedTabChange)="doNothing($event, tabGroup)" #tabGroup>
+      <mat-tab *ngFor="let singleDay of tripData.days; let dayIndex = index">
         <ng-template matTabLabel>
           <div class="mat-tab-label-holder">
             <div class="day-index" *ngIf="dayIndex === 0; else notFirstDay;">
@@ -11,7 +13,7 @@
               </span>
             </div>
             <ng-template #notFirstDay>
-              <div class="day-index" *ngIf="dayIndex === newTrip.days.length - 1; else notLastDay;">
+              <div class="day-index" *ngIf="dayIndex === tripData.days.length - 1; else notLastDay;">
                 <span>
                   <mat-icon>flight_takeoff</mat-icon> Day {{ dayIndex + 1 }}
                 </span>
@@ -23,7 +25,7 @@
               </ng-template>
             </ng-template>
             <div class="day-date">
-              <span>{{ newTrip.tripStart.startDate | iaDate: dayIndex }}</span>
+              <span>{{ tripData.tripStart.startDate | iaDate: dayIndex }}</span>
             </div>
             <div class="day-place-holder">
               <div class="day-place" *ngIf="singleDay.places.length === 1; else morePlaces;">
